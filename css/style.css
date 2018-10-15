@@ -1,0 +1,85 @@
+*, *:before, *:after {
+    box-sizing: border-box;
+}
+
+html {
+    font-family: "Open Sans", Arial, sans-serif;
+    background-color: #fafafa;
+    color: #3b3037;
+}
+
+.main-nav {
+    display: grid;
+    justify-content: center;
+}
+.nav-list {
+    display: inline;
+}
+.nav-item {
+    display: inline;
+}
+
+a {
+    color: #3b3037;
+}
+
+a:hover {
+    color: #0055ff;
+}
+
+.content {
+    max-width: 37rem;
+    margin: 0 auto;
+    padding: 1rem;
+}
+
+.experience {
+    margin-top: 4rem;
+}
+
+.experience-grid {
+    display: grid;
+    grid-gap: 2rem;
+    grid-template-columns: repeat(auto-fit, minmax(9rem, 1fr));
+}
+
+.project {
+    position: relative;
+    font-size: 0.875rem;
+    line-height: 1.2rem;
+}
+
+.project-title {
+    display: inline;
+}
+
+.project-title::after {
+    color: rgba(112,102,109,0.5);
+    content: "\00a0\2219";
+}
+
+.project-description {
+    display: inline;
+    color: #70666d;
+}
+
+.project-link {
+    text-decoration: none;
+}
+
+.project-link::before {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 1;
+    content: "";
+}
+
+.project-logo {
+    display: block;
+    height: 48px;
+    max-width: 100%;
+    margin-bottom: 0.5rem;
+}

@@ -8,32 +8,45 @@
 </head>
 <body>
     <header>
-        <a href="#"><img src="img/" alt=""></a>
-        <nav>
-            <ul>
-                <li><a href="#">Nav 1</a></li>
-                <li><a href="#">Nav 2</a></li>
-                <li><a href="#">Nav 3</a></li>
-                <li><a href="#">Nav 4</a></li>
+        <nav class="main-nav">
+            <ul class="nav-list">
+                <li class="nav-item"><a href="#" class="nav-link">About</a></li>
+                <li class="nav-item"><a href="#" class="nav-link">Projects</a></li>
+                <li class="nav-item"><a href="#" class="nav-link">Contact</a></li>
             </ul>
         </nav>
     </header>
-
-    <main>
-        <section>
-            <h1>Max Proske</h1>
-            <p>I'm a full stack web developer and game developer based in Vancouver, Canada.</p>
-            <p><a href="#">Learn more about me</a> or <a href="#">get in touch</a>.</p>
-
-            <article>
-                <h2>Header 2</h2>
-                <p>Placeholder.</p>
-            </article>
+    <main class="content">
+        <section class="intro">
+            <h1 class="intro-title">Max Proske</h1>
+            <p class="intro-description">I'm a <a href="#" class="intro-link">full stack web developer</a> and <a href="#" class="intro-link">game developer</a> based in Vancouver, Canada.</p>
+            <p class="intro-description"><a href="#" class="intro-link">Learn more about me</a> or <a href="#" class="intro-link">get in touch</a>.</p>
+            <section class="experience">
+                <h2 class="experience-title">Experience</h2>
+                <div class="experience-grid">
+                    <article class="project">
+                        <img src="../img/six12-logo.jpg" alt="SIX12 logo" class="project-logo">
+                        <h3 class="project-title"><a href="#" class="project-link">SIX12</a></h3>
+                        <p class="project-description">Web dev for contests and marketing campaigns.</p>
+                    </article>
+                    <article class="project">
+                        <img src="../img/six12-logo.jpg" alt="SIX12 logo" class="project-logo">
+                        <h3 class="project-title"><a href="#" class="project-link">SFU</a></h3>
+                        <p class="project-description">Building backwards compatibility for neural networks at iVizLab.</p>
+                    </article>
+                    <article class="project">
+                        <img src="../img/six12-logo.jpg" alt="SIX12 logo" class="project-logo">
+                        <h3 class="project-title"><a href="#" class="project-link">FFR</a></h3>
+                        <p class="project-description">The game you played in your high school computer lab.</p>
+                    </article>
+                    <article class="project">
+                        <img src="../img/six12-logo.jpg" alt="SIX12 logo" class="project-logo">
+                        <h3 class="project-title"><a href="#" class="project-link">CSSS</a></h3>
+                        <p class="project-description">First year computing science representative at SFU.</p>
+                    </article>
+                </div>
+            </section>
         </section>
     </main>
-
-    <footer>
-        <p>Footer</p>
-    </footer>
 </body>
 </html>
