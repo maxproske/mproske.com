@@ -3,24 +3,33 @@
 }
 
 html {
-    font-family: "Open Sans", Arial, sans-serif;
+    font-family: "Helvetica Neue", sans-serif;
     background-color: #fafafa;
     color: #3b3037;
 }
 
-.main-nav {
-    display: grid;
-    justify-content: center;
+.main-nav, 
+.content {
+    max-width: 42rem;
+    margin: 0 auto;
 }
+
 .nav-list {
-    display: inline;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-items: center;
+    padding: 0;
+    margin-top: 2rem;
 }
+
 .nav-item {
-    display: inline;
+    list-style: none;
+    padding: 0;
+    margin: 0;
 }
 
 a {
-    color: #3b3037;
+    color: #333;
 }
 
 a:hover {
@@ -28,13 +37,30 @@ a:hover {
 }
 
 .content {
-    max-width: 37rem;
-    margin: 0 auto;
-    padding: 1rem;
+    padding: 2rem;
+}
+
+.intro {
+    padding: 2rem 4rem;
+    margin: 0 -4rem;
+    background-color: #e8e8e8;
+}
+
+.intro-title {
+    margin: 0;
+}
+
+.intro-description {
+    font-size: 1.2rem;
+    line-height: 1.5rem;
 }
 
 .experience {
-    margin-top: 4rem;
+    margin-top: 3rem;
+}
+
+.experience-title {
+    margin-bottom: 2rem;
 }
 
 .experience-grid {
@@ -45,26 +71,21 @@ a:hover {
 
 .project {
     position: relative;
-    font-size: 0.875rem;
     line-height: 1.2rem;
 }
 
 .project-title {
     display: inline;
-}
-
-.project-title::after {
-    color: rgba(112,102,109,0.5);
-    content: "\00a0\2219";
+    font-size: 1rem;
 }
 
 .project-description {
     display: inline;
-    color: #70666d;
+    font-size: 0.85rem;
+    color: #666;
 }
 
 .project-link {
-    text-decoration: none;
 }
 
 .project-link::before {
@@ -79,7 +100,11 @@ a:hover {
 
 .project-logo {
     display: block;
-    height: 48px;
+    height: 3rem;
     max-width: 100%;
     margin-bottom: 0.5rem;
+}
+
+.footer {
+    background-color: #e8e8e8;
 }
