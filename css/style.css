@@ -8,6 +8,10 @@ html {
     color: #3b3037;
 }
 
+body {
+    margin: 0;
+}
+
 .main-nav, 
 .content {
     max-width: 42rem;
@@ -32,6 +36,7 @@ a {
     color: #333;
 }
 
+a:active,
 a:hover {
     color: #0055ff;
 }
@@ -41,18 +46,23 @@ a:hover {
 }
 
 .intro {
-    padding: 2rem 4rem;
-    margin: 0 -4rem;
+    padding: 2rem 2rem;
+    margin: 0 -2rem;
     background-color: #e8e8e8;
 }
 
 .intro-title {
+    font-size: 1.75rem;
     margin: 0;
 }
 
 .intro-description {
     font-size: 1.2rem;
     line-height: 1.5rem;
+}
+
+.intro-description:last-child {
+    margin-bottom: 0;
 }
 
 .experience {
@@ -101,9 +111,15 @@ a:hover {
 .project-logo {
     display: block;
     height: 3rem;
-    max-width: 100%;
     margin-bottom: 0.5rem;
+    fill: #333;
 }
+
+.project:hover .project-logo,
+.project:active .project-logo {
+    fill: #0055ff;
+}
+
 
 .footer {
     background-color: #e8e8e8;
