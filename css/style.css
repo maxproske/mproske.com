@@ -5,7 +5,7 @@
 html {
     font-family: "Helvetica Neue", sans-serif;
     background-color: #fafafa;
-    color: #3b3037;
+    color: #333;
 }
 
 body {
@@ -37,7 +37,8 @@ a {
 }
 
 a:active,
-a:hover {
+a:hover,
+a:focus {
     color: #0055ff;
 }
 
