@@ -16,6 +16,7 @@ body {
     margin-bottom: 5rem;
 }
 
+.footer,
 .main-nav, 
 .content {
     max-width: 42rem;
@@ -106,8 +107,6 @@ a:focus {
 
 .project-description {
     display: inline;
-    font-size: 0.85rem;
-    color: #666;
 }
 
 .project-link {
@@ -135,9 +134,24 @@ a:focus {
     fill: #0055ff;
 }
 
+.logo {
+    fill: #333;
+    margin-right: 1rem;
+}
+
+.logo:hover,
+.logo:active,
+.logo:focus {
+    fill: #0055ff;
+}
+
 
 .footer {
     background-color: #e8e8e8;
+    display: grid;
+    justify-content: center;
+    grid-template-columns: 1fr 1fr;
+    justify-items: center;
 }
 
 .portrait {
