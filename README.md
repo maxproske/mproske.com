@@ -10,6 +10,7 @@ A typical personal "brand" for a programmer should consist of (in descending ord
 ## Citations
 - Homepage layout inspired by Paul Lloyd. https://paulrobertlloyd.com/.
 - Card layout. http://www.adamhartwig.co.uk/work-and-play.
+- SVG icons. https://iconmonstr.com/github-1-svg/.
 
 ## TODO
 - Add GitHub to portfolio
