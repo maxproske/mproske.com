@@ -4,53 +4,87 @@
     <meta charset="utf-8">
     <title>Max Proske</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    <header class="main-header">
-        <nav class="main-nav">
-            <ul class="nav-list">
-                <li class="nav-item"><a href="/" class="nav-link">Home</a></li>
-                <li class="nav-item"><a href="/about" class="nav-link">About</a></li>
-                <li class="nav-item"><a href="/projects" class="nav-link">Projects</a></li>
-                <li class="nav-item"><a href="/contact" class="nav-link">Contact</a></li>
-            </ul>
-        </nav>
-    </header>
     <main class="content">
-        <section class="intro">
-            <h1 class="title">Max Proske</h1>
-            <p class="description">I'm a <a href="/projects#web" class="intro-link">full stack web developer</a> and <a href="/projects#games" class="intro-link">game developer</a> based in Vancouver, Canada.</p>
-            <p class="description"><a href="/about" class="intro-link">Learn more about me</a> or <a href="/contact" class="intro-link">get in touch</a>.</p>
-            <a href="https://github.com/maxproske" target="_blank"><svg class="logo" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/></svg></a>
-            <a href="https://ca.linkedin.com/in/maxproske" target="_blank"><svg class="logo" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M4.98 3.5c0 1.381-1.11 2.5-2.48 2.5s-2.48-1.119-2.48-2.5c0-1.38 1.11-2.5 2.48-2.5s2.48 1.12 2.48 2.5zm.02 4.5h-5v16h5v-16zm7.982 0h-4.968v16h4.969v-8.399c0-4.67 6.029-5.052 6.029 0v8.399h4.988v-10.131c0-7.88-8.922-7.593-11.018-3.714v-2.155z"/></svg></a>
+        <section id="intro">
+            <h1 id="title">Max Proske</h1> 
+            <p class="description">I'm a <a href="#experience">full stack web developer</a> based in Vancouver, Canada.</p>
+            <p class="description"><a href="#about">Learn more about me</a> or <a href="#contact">get in touch</a>.</p>
         </section>
-        <section class="experience">
-            <h2 class="experience-title">My Work</h2>
-            <div class="experience-grid">
-                <article class="project">
-                    <svg class="project-logo" width="100" height="48">
-                        <rect width="100" height="48">
+
+        <section id="experience">
+            <h2 class="header">Experience</h2>
+            <div class="grid">
+                <article class="item">
+                    <svg class="logo" width="160" height="48">
+                        <rect width="160" height="48">
                     </svg>
-                    <h3 class="project-title"><a href="#" class="project-link">SIX12</a></h3>
-                    <p class="project-description">intermediate web dev for contests and marketing campaigns.</p>
+                    <h3 class="title"><a href="#" class="link">SIX12</a></h3>
+                    <p class="description">Intermediate web dev for contests and marketing campaigns.</p>
+                    
                 </article>
-                <article class="project">
-                    <svg class="project-logo" width="100" height="48">
-                        <rect width="100" height="48">
+                <article class="item">
+                    <svg class="logo" width="160" height="48">
+                        <rect width="160" height="48">
                     </svg>
-                    <h3 class="project-title"><a href="#" class="project-link">iVizLab</a></h3>
-                    <p class="project-description">undergrad researcher building backwards compatibility for neural nets.</p>
+                    <h3 class="title"><a href="#" class="link">iVizLab</a></h3>
+                    <p class="description">Undergrad researcher building backwards compatibility for neural nets, 2016.</p>
                 </article>
-                <article class="project">
-                    <svg class="project-logo" width="100" height="48">
-                        <rect width="100" height="48">
+                <article class="item">
+                    <svg class="logo" width="160" height="48">
+                        <rect width="160" height="48">
                     </svg>
-                    <h3 class="project-title"><a href="#" class="project-link">SFU</a></h3>
-                    <p class="project-description">first-year computing science representative.</p>
+                    <h3 class="title"><a href="#" class="link">SFU</a></h3>
+                    <p class="description">First-year computing science representative, 2013.</p>
                 </article>
             </div>
         </section>
+
+        <section id="projects">
+            <h2 class="header">Projects</h2>
+            <div class="grid">
+                    <article class="item">
+                        <svg class="logo" width="160" height="48">
+                            <rect width="160" height="48">
+                        </svg>
+                        <h3 class="title"><a href="#" class="link">Flash Flash Revolution</a></h3>
+                        <p class="description">Placeholder.</p>
+                    </article>
+                    <article class="item">
+                        <svg class="logo" width="160" height="48">
+                            <rect width="160" height="48">
+                        </svg>
+                        <h3 class="title"><a href="#" class="link">Multiphasic Orbit</a></h3>
+                        <p class="description">Placeholder.</p>
+                    </article>
+                    <article class="item">
+                        <svg class="logo" width="160" height="48">
+                            <rect width="160" height="48">
+                        </svg>
+                        <h3 class="title"><a href="#" class="link">Lyn's Rhythm Dungeon</a></h3>
+                        <p class="description">Placeholder.</p>
+                    </article>
+                </div>
+        </section>
+
+        <section id="about">
+            <h1 class="header">About</h1>
+            <p class="description">I graduated from <a href="https://www.sfu.ca/" target="_blank">Simon Fraser University</a> with a B.Sc. Interactive Systems. I combine computing science and human-computer interaction, to create highly interactive websites, games, and software.</p>
+            <p class="description">I have a keen interest in learning computing science. I value writing readable, performant code.</p>
+            <p class="description">My hobbies are centered around rhythm games and long distance running.</p>
+        </section>
+
+        <section id="contact">
+            <h2 class="header">Contact</h2>
+            <p class="description">I’d love to chat about job opportunities, or projects I’ve worked on.</p>
+            <p><a href="mailto:max@mproske.com">max@mproske.com</a></p>
+        </section>
     </main>
+    <footer>
+
+    </footer>
 </body>
 </html>
