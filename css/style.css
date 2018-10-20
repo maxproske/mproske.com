@@ -1,66 +1,45 @@
+/* Global
+   ========================================================================== */
+
 *, *:before, *:after {
     box-sizing: border-box;
 }
 
+
+/* Content
+   ========================================================================== */
+
 html {
-    font-family: "Roboto", "Helvetica Neue", sans-serif;
+    font-family: "Roboto", sans-serif;
     background-color: #fafafa;
     color: #333;
 }
 
-body {
-    margin: 0;
-}
-
-.main-header {
-    margin-top: 1rem;
-}
-
-.footer,
-.main-nav, 
-.content {
-    max-width: 42rem;
-    margin: 0 auto;
-}
-
-.nav-list {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(4rem, 1fr));
-    justify-items: center;
-    padding: 0;
-    margin-top: 2rem;
-}
-
-.nav-item {
-    list-style: none;
-    padding: 0;
-    margin: 0;
-}
-
 a {
-    text-decoration: none;
     color: #333;
+    text-decoration: underline;
+    text-decoration-color: #0055ff;
 }
 
-a:active,
 a:hover,
+a:active,
 a:focus {
-    text-decoration: underline;
     color: #0055ff;
 }
 
 .content {
+    max-width: 42rem;
+    margin: 0 auto;
     padding: 2rem;
 }
 
-.intro {
-    padding: 2rem;
-    margin: 15vh -2rem 30vh -2rem;
-    background-color: #e8e8e8;
-}
-
-.title {
+#title {
     font-size: 3rem;
+    margin: 0;
+}
+
+.header {
+    font-size: 2rem;
     margin: 0;
 }
 
@@ -69,52 +48,63 @@ a:focus {
     line-height: 2rem;
 }
 
-.intro .description:last-child {
-    margin-bottom: 0;
-}
+/* Grids
+   ========================================================================== */
 
-.intro-link {
-    text-decoration: underline;
-}
-
-.description a {
-    text-decoration: underline;
-    -webkit-text-decoration-color: #0055ff;
-    text-decoration-color: #0055ff;
-}
-
-.experience {
-    margin-top: 3rem;
-}
-
-.experience-title {
-    margin-bottom: 2rem;
-}
-
-.experience-grid {
+.grid {
     display: grid;
     grid-gap: 2rem;
     grid-template-columns: repeat(auto-fit, minmax(9rem, 1fr));
 }
 
-.project {
+
+/* Introduction
+   ========================================================================== */
+
+#intro {
+    padding: 2rem;
+    margin: 15vh -2rem 30vh -2rem;
+    background-color: #e8e8e8;
+}
+
+#intro p:last-child {
+    margin-bottom: 0.5rem;
+}
+
+
+/* Experience
+   ========================================================================== */
+
+#experience {
+
+}
+
+#experience .header {
+    margin-bottom: 2rem;
+}
+
+#experience .title {
+    font-size: 1.5rem;
+}
+
+/* Projects
+   ========================================================================== */
+
+#projects {
+
+}
+
+.item {
     position: relative;
     line-height: 1.2rem;
 }
 
-.project-title {
+.title {
     display: inline;
     font-size: 1rem;
 }
 
-.project-description {
-    display: inline;
-}
-
-.project-link {
-}
-
-.project-link::before {
+.link::before {
     position: absolute;
     top: 0;
     right: 0;
@@ -124,15 +114,15 @@ a:focus {
     content: "";
 }
 
-.project-logo {
+.logo {
     display: block;
     height: 3rem;
     margin-bottom: 0.5rem;
     fill: #333;
 }
 
-.project:hover .project-logo,
-.project:active .project-logo {
+.item:hover .logo,
+.item:active .logo {
     fill: #0055ff;
 }
 
@@ -148,10 +138,9 @@ a:focus {
 }
 
 
-.footer {
-    background-color: #e8e8e8;
-    display: grid;
-    justify-content: center;
-    grid-template-columns: 1fr 1fr;
-    justify-items: center;
+/* Contact
+   ========================================================================== */
+
+#contact {
+    
 }
