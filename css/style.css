@@ -3,7 +3,7 @@
 }
 
 html {
-    font-family: "Helvetica Neue", sans-serif;
+    font-family: "Roboto", "Helvetica Neue", sans-serif;
     background-color: #fafafa;
     color: #333;
 }
@@ -13,7 +13,7 @@ body {
 }
 
 .main-header {
-    margin-bottom: 5rem;
+    margin-top: 1rem;
 }
 
 .footer,
@@ -54,19 +54,19 @@ a:focus {
 }
 
 .intro {
-    padding: 2rem 2rem;
-    margin: 0 -2rem;
+    padding: 2rem;
+    margin: 15vh -2rem 30vh -2rem;
     background-color: #e8e8e8;
 }
 
 .title {
-    font-size: 1.75rem;
+    font-size: 3rem;
     margin: 0;
 }
 
 .description {
-    font-size: 1.2rem;
-    line-height: 1.5rem;
+    font-size: 1.25rem;
+    line-height: 2rem;
 }
 
 .intro .description:last-child {
@@ -79,6 +79,8 @@ a:focus {
 
 .description a {
     text-decoration: underline;
+    -webkit-text-decoration-color: #0055ff;
+    text-decoration-color: #0055ff;
 }
 
 .experience {
@@ -152,9 +154,4 @@ a:focus {
     justify-content: center;
     grid-template-columns: 1fr 1fr;
     justify-items: center;
-}
-
-.portrait {
-    margin-top: 2rem;
-    width: 15rem;
 }

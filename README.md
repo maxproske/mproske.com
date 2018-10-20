@@ -13,6 +13,7 @@ A typical personal "brand" for a programmer should consist of (in descending ord
 - SVG icons. https://iconmonstr.com/github-1-svg/.
 
 ## TODO
+- Create a one-page portfolio web site
 - Add GitHub to portfolio
 - Create svgs for experience and projects
 - Create contact page
