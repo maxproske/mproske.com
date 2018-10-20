@@ -2,6 +2,8 @@
    ========================================================================== */
 
 *, *:before, *:after {
+    -webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
     box-sizing: border-box;
 }
 
@@ -28,10 +30,23 @@ a:focus {
     transition: 0.1s;
 }
 
+a:focus {
+    transition: 0.1s;
+    display: inline-block;
+    padding: 0.1em;
+    margin: -0.1em;
+    background-color: #0055ff;
+    color: #fff;
+    text-decoration: underline;
+    text-decoration-color: #fff;
+}
+a:focus svg {
+    fill: #fff;
+}
+
 .content {
     max-width: 60rem;
     margin: 0 auto;
-    padding: 2rem;
 }
 
 #title {
@@ -41,6 +56,7 @@ a:focus {
 }
 
 .header {
+    font-weight: 900;
     font-size: 3rem;
     margin: 0;
 }
@@ -48,10 +64,6 @@ a:focus {
 .description {
     font-size: 1.25rem;
     line-height: 1.8rem;
-}
-
-main > section {
-    margin-bottom: 6rem;
 }
 
 /* Grids
@@ -97,7 +109,11 @@ main > section {
 
 .grid .title a {
     color: #fff;
-    text-decoration: none;
+    text-decoration: none;      
+}
+
+.grid .title a:focus {
+    text-decoration: underline;
 }
 
 .grid .logo {
@@ -109,17 +125,27 @@ main > section {
    ========================================================================== */
 
 #intro {
-    padding: 2rem;
-    margin: 10vh -2rem 40vh -2rem;
+    height: 100vh;
+    margin-top: 20vh;
 }
 
-#intro p:last-child {
-    margin-bottom: 0.5rem;
+#intro .header {
+    font-weight: 900;
+    font-size: 4rem;
+    margin: 0;
 }
 
+#intro .description {
+    font-size: 1.4rem;
+    line-height: 2rem;
+}
 
 /* Experience
    ========================================================================== */
+
+#experience {
+    margin-top: calc(-20vh - 10rem);
+}
 
 #experience .grid {
     text-align: center;
@@ -153,7 +179,6 @@ main > section {
 
 .item {
     position: relative;
-    line-height: 1.2rem;
 }
 
 .link::before {
@@ -173,3 +198,20 @@ main > section {
 #contact {
     
 }
+
+/* Media Queries
+   ========================================================================== */
+
+@media screen and (max-height: 35rem) {
+    /* Collapse fold on short displays */
+    #intro {
+        margin-top: 0;
+        height: initial;
+    }
+    .content {
+        margin-top: 2rem;
+    }
+    #experience {
+        margin-top: initial;
+    }
+} 
