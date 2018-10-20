@@ -28,24 +28,25 @@ a:focus {
 }
 
 .content {
-    max-width: 42rem;
+    max-width: 50rem;
     margin: 0 auto;
     padding: 2rem;
 }
 
 #title {
-    font-size: 3rem;
+    font-weight: 900;
+    font-size: 4rem;
     margin: 0;
 }
 
 .header {
-    font-size: 2rem;
+    font-size: 3rem;
     margin: 0;
 }
 
 .description {
     font-size: 1.25rem;
-    line-height: 2rem;
+    line-height: 1.8rem;
 }
 
 main > section {
