@@ -11,7 +11,6 @@
 
 html {
     font-family: "Roboto", sans-serif;
-    background-color: #fafafa;
     color: #333;
 }
 
@@ -25,6 +24,7 @@ a:hover,
 a:active,
 a:focus {
     color: #0055ff;
+    transition: 0.1s;
 }
 
 .content {
@@ -48,6 +48,10 @@ a:focus {
     line-height: 2rem;
 }
 
+main > section {
+    margin-bottom: 6rem;
+}
+
 /* Grids
    ========================================================================== */
 
@@ -63,8 +67,7 @@ a:focus {
 
 #intro {
     padding: 2rem;
-    margin: 15vh -2rem 30vh -2rem;
-    background-color: #e8e8e8;
+    margin: 10vh -2rem 40vh -2rem;
 }
 
 #intro p:last-child {
@@ -79,12 +82,13 @@ a:focus {
 
 }
 
-#experience .header {
+.header {
     margin-bottom: 2rem;
 }
 
-#experience .title {
+.title {
     font-size: 1.5rem;
+    line-height: 2rem;
 }
 
 /* Projects
@@ -97,11 +101,6 @@ a:focus {
 .item {
     position: relative;
     line-height: 1.2rem;
-}
-
-.title {
-    display: inline;
-    font-size: 1rem;
 }
 
 .link::before {
@@ -119,6 +118,10 @@ a:focus {
     height: 3rem;
     margin-bottom: 0.5rem;
     fill: #333;
+}
+
+.item:hover p {
+    color: #0055ff;
 }
 
 .item:hover .logo,

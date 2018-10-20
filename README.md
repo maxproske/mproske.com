@@ -11,6 +11,7 @@ A typical personal "brand" for a programmer should consist of (in descending ord
 - Paul Lloyd. https://paulrobertlloyd.com/.
 - Tobias Ahlin. http://tobiasahlin.com/.
 - Brittany Chiang. https://brittanychiang.com/.
+- Tania Rascia. https://www.taniarascia.com/resume/.
 - SVG icons. https://iconmonstr.com/.
 
 ## TODO
@@ -19,3 +20,4 @@ A typical personal "brand" for a programmer should consist of (in descending ord
 - Create svgs for experience and projects
 - Create contact page
 - Create projects page with web/games sections
+- Add flex and reorder article so the header comes first
