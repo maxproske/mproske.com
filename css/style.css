@@ -11,6 +11,7 @@
 
 html {
     font-family: "Roboto", sans-serif;
+    scroll-behavior: smooth;
     color: #333;
 }
 
@@ -62,7 +63,7 @@ main > section {
     grid-auto-rows: 17rem;
 }
 
-.item {
+.grid .item {
     display: flex;
     flex-wrap: wrap;
     justify-content: center; /* inline-axis */
@@ -70,36 +71,36 @@ main > section {
     align-content: center;
 }
 
-.item .title,
-.item:hover .title {
+.grid .item .title,
+.grid .item:hover .title {
     transition: margin-bottom 0.2s cubic-bezier(0.42, 0.4, 0.21, 0.9);
 }
-.item:hover .title {
+.grid .item:hover .title {
     margin-bottom: 1.5rem;
 }
 
-.title,
-.logo,
-.description {
+.grid .title,
+.grid .logo,
+.grid .description {
     flex: 1 100%;
 }
 
-.description {
+.grid .description {
     max-width: 25rem;
     margin: 0 auto;
 }
 
-.title {
+.grid .title {
     font-size: 2rem;
     margin-bottom: 0.5rem;
 }
 
-.title a {
+.grid .title a {
     color: #fff;
     text-decoration: none;
 }
 
-.logo {
+.grid .logo {
     margin: 1.5rem 0;
     fill: #fff;
 }
