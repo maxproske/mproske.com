@@ -40,6 +40,7 @@ a:focus {
     text-decoration: underline;
     text-decoration-color: #fff;
 }
+
 a:focus svg {
     fill: #fff;
 }
@@ -47,6 +48,11 @@ a:focus svg {
 .content {
     max-width: 60rem;
     margin: 0 auto;
+    padding: 0 2rem;
+}
+
+.content > section:not(:first-child) {
+    margin-bottom: 6rem;
 }
 
 #title {
@@ -66,13 +72,15 @@ a:focus svg {
     line-height: 1.8rem;
 }
 
+
 /* Grids
    ========================================================================== */
 
 .grid {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    grid-auto-rows: 17rem;
+    grid-auto-rows: 12rem;
+    text-align: center;
 }
 
 .grid .item {
@@ -121,6 +129,21 @@ a:focus svg {
     fill: #fff;
 }
 
+.grid .item {
+    position: relative;
+}
+
+.grid .link::before {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 1;
+    content: "";
+}
+
+
 /* Introduction
    ========================================================================== */
 
@@ -140,6 +163,7 @@ a:focus svg {
     line-height: 2rem;
 }
 
+
 /* Experience
    ========================================================================== */
 
@@ -147,28 +171,27 @@ a:focus svg {
     margin-top: calc(-20vh - 10rem);
 }
 
-#experience .grid {
-    text-align: center;
-}
-
-#experience .grid .item:nth-of-type(1) {
+#experience #six12-creative {
 	grid-column: span 2;
     grid-row: span 2;
     background-color: #00ADEF;
     color: #fff;
 }
-#experience .grid .item:nth-of-type(2) {
-	grid-column: span 1;
-    grid-row: span 2;
-    background-color: #ef6424;
-    color: #fff;
-}
-#experience .grid .item:nth-of-type(3) {
+
+#experience #sfu {
 	grid-column: span 1;
     grid-row: span 2;
     background-color: #A6192E;
     color: #fff;
 }
+
+#experience #ivizlab {
+	grid-column: span 1;
+    grid-row: span 2;
+    background-color: #ef6424;
+    color: #fff;
+}
+
 
 /* Projects
    ========================================================================== */
@@ -177,18 +200,46 @@ a:focus svg {
 
 }
 
-.item {
-    position: relative;
+#projects #flash-flash-revolution {
+    grid-column: span 2;
+    grid-row: span 2;
+    background-color: #28aad1;
+    color: #fff;
 }
 
-.link::before {
-    position: absolute;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0;
-    z-index: 1;
-    content: "";
+#projects #multiphasic-orbit {
+	grid-column: span 1;
+    grid-row: span 2;
+    background-color: #171021;
+    color: #fff;
+}
+
+#projects #lux {
+	grid-column: span 1;
+    grid-row: span 1;
+    background-color: #333;
+    color: #fff;
+}
+
+#projects #lyns-rhythm-dungeon {
+	grid-column: span 1;
+    grid-row: span 1;
+    background-color: #C00060;
+    color: #fff;
+}
+
+#projects #pocket-cleric {
+	grid-column: span 1;
+    grid-row: span 1;
+    background-color: rgb(37, 88, 37);
+    color: #fff;
+}
+
+#projects #potted-picasso {
+    grid-column: span 1;
+    grid-row: span 1;
+    background-color: rgb(45, 57, 226);
+    color: #fff;
 }
 
 
@@ -198,6 +249,20 @@ a:focus svg {
 #contact {
     
 }
+
+#contact .logo {
+    fill: #333;
+    margin: 1rem;
+}
+
+
+/* Footer
+   ========================================================================== */
+
+#footer {
+    margin-bottom: 6rem;
+}
+
 
 /* Media Queries
    ========================================================================== */
