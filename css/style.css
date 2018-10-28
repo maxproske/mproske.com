@@ -93,11 +93,10 @@ a:focus svg {
 
 .grid .item .title,
 .grid .item:hover .title {
-    transition: margin-bottom 0.2s cubic-bezier(0.42, 0.4, 0.21, 0.9);
+    /* transition: margin-bottom 0.2s cubic-bezier(0.42, 0.4, 0.21, 0.9); */
 }
-.grid .item:hover .title {
-    margin-top: 0;
-    margin-bottom: 1.5rem;
+.grid .item:hover {
+
 }
 
 .grid .title,
@@ -117,7 +116,7 @@ a:focus svg {
 .grid .title {
     font-size: 2rem;
     margin-top: 0;
-    margin-bottom: 1rem;
+    margin-bottom: 2rem;
 }
 
 .grid .title a {
@@ -131,11 +130,15 @@ a:focus svg {
 
 .grid .logo {
     fill: #fff;
-    margin-bottom: 1rem;
+    margin-bottom: 2rem;
 }
 
 .grid .logo img {
     max-width: 6rem;
+}
+
+.grid .logo svg {
+    max-width: 11rem;
 }
 
 .grid .item {
@@ -252,6 +255,26 @@ a:focus svg {
     color: #fff;
 }
 
+/* About
+   ========================================================================== */
+
+#about {
+    
+}
+
+#about figure {
+    margin: 1.5rem 0 0 0;
+}
+
+#about img {
+    max-width: 15rem;
+}
+
+#about figcaption {
+    padding-top: 1rem;
+    font-size: 1.25rem;
+    line-height: 1.8rem;
+}
 
 /* Contact
    ========================================================================== */
