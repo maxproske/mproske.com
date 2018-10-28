@@ -80,7 +80,6 @@ a:focus svg {
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-auto-rows: 12rem;
-    grid-gap: 1rem;
     text-align: center;
 }
 
@@ -111,11 +110,14 @@ a:focus svg {
     max-width: 25rem;
     margin: 0 auto;
 }
+.grid .description .summary {
+    max-width: 20rem;
+}
 
 .grid .title {
     font-size: 2rem;
     margin-top: 0;
-    margin-bottom: 0.5rem;
+    margin-bottom: 1rem;
 }
 
 .grid .title a {
@@ -128,8 +130,8 @@ a:focus svg {
 }
 
 .grid .logo {
-    margin: 1.5rem 0;
     fill: #fff;
+    margin-bottom: 1rem;
 }
 
 .grid .logo img {
@@ -211,7 +213,7 @@ a:focus svg {
 #projects #flash-flash-revolution {
     grid-column: span 2;
     grid-row: span 2;
-    background-color: #28aad1;
+    background: #28aad1;
     color: #fff;
 }
 
@@ -275,7 +277,7 @@ a:focus svg {
 /* Media Queries
    ========================================================================== */
 
-@media screen and (max-height: 35rem) {
+@media screen and (max-height: 31rem) {
     /* Collapse fold on short displays */
     #intro {
         margin-top: 0;
@@ -283,7 +285,14 @@ a:focus svg {
     .content {
         margin-top: 2rem;
     }
-    #experience {
-        margin-top: initial;
-    }
 } 
+
+@media screen and (max-width: 38rem) {
+    .grid {
+        margin: 0 -2rem;
+    }
+    .grid .item {
+        padding: 0 2rem;
+        grid-column: span 2 !important;
+    }
+}
