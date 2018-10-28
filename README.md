@@ -17,6 +17,8 @@ A typical personal "brand" for a programmer should consist of (in descending ord
 - Changbai Li. http://2015.changbai.li/.
 - Michael Pumo. https://michaelpumo.com/.
 - Justin Forcier. http://zertukis.com/.
+- Ian Lunn. https://ianlunn.co.uk/.
+- Timmy O'Mahony. https://timmyomahony.com/.
 
 ## TODO
 - Create a one-page portfolio web site
@@ -25,3 +27,4 @@ A typical personal "brand" for a programmer should consist of (in descending ord
 - Create contact page
 - Create projects page with web/games sections
 - Add flex and reorder article so the header comes first
+- Make article wrapped in <a> tag

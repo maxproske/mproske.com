@@ -14,11 +14,11 @@
 html {
     font-family: "Roboto", sans-serif;
     scroll-behavior: smooth;
-    color: #333;
+    color: #000;
 }
 
 a {
-    color: #333;
+    color: #000;
     text-decoration: underline;
     text-decoration-color: #0055ff;
 }
@@ -63,8 +63,11 @@ a:focus svg {
 
 .header {
     font-weight: 900;
-    font-size: 3rem;
+    font-size: 4rem;
     margin: 0;
+    position: relative;
+    top: 1.25rem;
+    z-index: 20;
 }
 
 .description {
@@ -80,6 +83,7 @@ a:focus svg {
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-auto-rows: 12rem;
+    grid-gap: 1rem;
     text-align: center;
 }
 
@@ -91,18 +95,11 @@ a:focus svg {
     align-content: center;
 }
 
-.grid .item .title,
-.grid .item:hover .title {
-    /* transition: margin-bottom 0.2s cubic-bezier(0.42, 0.4, 0.21, 0.9); */
-}
-.grid .item:hover {
-
-}
-
 .grid .title,
 .grid .logo,
 .grid .description {
     flex: 1 100%;
+    z-index: 10;
 }
 
 .grid .description {
@@ -143,6 +140,7 @@ a:focus svg {
 
 .grid .item {
     position: relative;
+    overflow: hidden;
 }
 
 .grid .link::before {
@@ -155,20 +153,40 @@ a:focus svg {
     content: "";
 }
 
+.grid .background-image {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 1;
+    content: "";
+
+    opacity: 0.15;
+    transition: opacity, transform 0.2s;
+}
+
+.grid .item:hover .background-image {
+    opacity: 0.05;
+    transition: opacity, transform 0.2s;
+    transform: scale(1.05);
+}
+
 
 /* Introduction
    ========================================================================== */
 
 #intro {
     height: 80vh;
-    margin-top: 20vh;
-    margin-bottom: -20vh;
+    margin-top: 15vh;
+    margin-bottom: -15vh;
 }
 
 #intro .header {
     font-weight: 900;
-    font-size: 4rem;
+    font-size: 5rem;
     margin: 0;
+    top: 0;
 }
 
 #intro .description {
@@ -184,11 +202,28 @@ a:focus svg {
 
 }
 
+#experience .title,
+#experience .description {
+    opacity: 0.00001;
+}
+
+#experience .item:hover .title,
+#experience .item:hover .description {
+    opacity: 1;
+}
+
 #experience #six12-creative {
 	grid-column: span 2;
     grid-row: span 2;
-    background-color: #00ADEF;
     color: #fff;
+    background-color: rgba(0, 173, 239, 1);
+}
+
+.background-image {
+    background: url("https://patternbreak.com/wp-content/uploads/2016/05/placeholder.gif");
+    background-size: cover;
+    background-position: top left;
+    background-repeat: no-repeat;
 }
 
 #experience #sfu {
@@ -211,6 +246,17 @@ a:focus svg {
 
 #projects {
 
+}
+
+#projects .title,
+#projects .description {
+    opacity: 0.00001;
+}
+
+#projects .item:hover .title,
+#projects .item:hover .description {
+    opacity: 1;
+    transition: opacity 0.15s cubic-bezier(0.42, 0.4, 0.21, 0.9);
 }
 
 #projects #flash-flash-revolution {
@@ -263,11 +309,11 @@ a:focus svg {
 }
 
 #about figure {
-    margin: 1.5rem 0 0 0;
+    margin: 0;
 }
 
 #about img {
-    max-width: 15rem;
+    max-width: 18rem;
 }
 
 #about figcaption {
