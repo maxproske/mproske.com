@@ -80,6 +80,7 @@ a:focus svg {
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-auto-rows: 12rem;
+    grid-gap: 1rem;
     text-align: center;
 }
 
@@ -96,6 +97,7 @@ a:focus svg {
     transition: margin-bottom 0.2s cubic-bezier(0.42, 0.4, 0.21, 0.9);
 }
 .grid .item:hover .title {
+    margin-top: 0;
     margin-bottom: 1.5rem;
 }
 
@@ -112,6 +114,7 @@ a:focus svg {
 
 .grid .title {
     font-size: 2rem;
+    margin-top: 0;
     margin-bottom: 0.5rem;
 }
 
@@ -127,6 +130,10 @@ a:focus svg {
 .grid .logo {
     margin: 1.5rem 0;
     fill: #fff;
+}
+
+.grid .logo img {
+    max-width: 6rem;
 }
 
 .grid .item {
@@ -148,8 +155,9 @@ a:focus svg {
    ========================================================================== */
 
 #intro {
-    height: 100vh;
+    height: 80vh;
     margin-top: 20vh;
+    margin-bottom: -20vh;
 }
 
 #intro .header {
@@ -168,7 +176,7 @@ a:focus svg {
    ========================================================================== */
 
 #experience {
-    margin-top: calc(-20vh - 10rem);
+
 }
 
 #experience #six12-creative {
@@ -271,7 +279,6 @@ a:focus svg {
     /* Collapse fold on short displays */
     #intro {
         margin-top: 0;
-        height: initial;
     }
     .content {
         margin-top: 2rem;
