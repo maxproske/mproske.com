@@ -171,21 +171,23 @@ a:focus svg {
     transform: scale(1.05);
 }
 
-.grid .title,
-.grid .description {
-    opacity: 0.00001;
-    position: relative;
-    top: 1rem;
-    transition: opacity 0.2s, top 0.2s;
-}
+@media screen and (min-width: 38rem) {
+    .grid .title,
+    .grid .description {
+        opacity: 0.00001;
+        position: relative;
+        top: 1rem;
+        transition: opacity 0.2s, top 0.2s;
+    }
 
-.grid .link:focus .title,
-.grid .link:focus .description,
-.grid .item:hover .title,
-.grid .item:hover .description {
-    opacity: 1;
-    top: 0;
-    transition: opacity 0.2s, top 0.2s;
+    .grid .link:focus .title,
+    .grid .link:focus .description,
+    .grid .item:hover .title,
+    .grid .item:hover .description {
+        opacity: 1;
+        top: 0;
+        transition: opacity 0.2s, top 0.2s;
+    }
 }
 
 
@@ -418,9 +420,16 @@ a:focus svg {
 @media screen and (max-width: 38rem) {
     .grid {
         margin: 0 -2rem;
+        grid-gap: 0;
     }
-    .grid .item {
-        padding: 0 2rem;
+    .grid .link {
         grid-column: span 2 !important;
+    }
+    .grid .background-image {
+        padding: 0 2rem;
+    }
+    .grid .title,
+    .grid .description {
+        opacity: 1;
     }
 }
