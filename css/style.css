@@ -176,7 +176,7 @@ a:focus svg {
     opacity: 0.00001;
     position: relative;
     top: 1rem;
-    transition: opacity 0.1s, top 0.1s;
+    transition: opacity 0.2s, top 0.2s;
 }
 
 .grid .link:focus .title,
@@ -185,7 +185,7 @@ a:focus svg {
 .grid .item:hover .description {
     opacity: 1;
     top: 0;
-    transition: opacity 0.1s, top 0.1s;
+    transition: opacity 0.2s, top 0.2s;
 }
 
 
@@ -272,17 +272,6 @@ a:focus svg {
 
 #projects {
 
-}
-
-#projects .title,
-#projects .description {
-    opacity: 0.00001;
-}
-
-#projects .item:hover .title,
-#projects .item:hover .description {
-    opacity: 1;
-    transition: opacity 0.15s cubic-bezier(0.42, 0.4, 0.21, 0.9);
 }
 
 #projects #flash-flash-revolution {
