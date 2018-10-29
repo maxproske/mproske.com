@@ -163,13 +163,28 @@ a:focus svg {
     content: "";
 
     opacity: 0.15;
-    transition: opacity, transform 0.2s;
+    transition: opacity 0.2s, transform 0.2s;
 }
 
 .grid .item:hover .background-image {
     opacity: 0.05;
-    transition: opacity, transform 0.2s;
+    transition: opacity 0.2s, transform 0.2s;
     transform: scale(1.05);
+}
+
+.grid .title,
+.grid .description {
+    opacity: 0.00001;
+    position: relative;
+    top: 1rem;
+    transition: opacity 0.1s, top 0.1s;
+}
+
+.grid .item:hover .title,
+.grid .item:hover .description {
+    opacity: 1;
+    top: 0;
+    transition: opacity 0.1s, top 0.1s;
 }
 
 
@@ -202,16 +217,6 @@ a:focus svg {
 
 }
 
-#experience .title,
-#experience .description {
-    opacity: 0.00001;
-}
-
-#experience .item:hover .title,
-#experience .item:hover .description {
-    opacity: 1;
-}
-
 #experience #six12-creative {
 	grid-column: span 2;
     grid-row: span 2;
@@ -239,7 +244,6 @@ a:focus svg {
     background-color: #ef6424;
     color: #fff;
 }
-
 
 /* Projects
    ========================================================================== */
