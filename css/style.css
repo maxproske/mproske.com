@@ -160,23 +160,25 @@ a:focus svg {
     left: 0;
     content: "";
 
-    opacity: 0.2;
-    transition: opacity 0.2s, transform 0.2s;
+    opacity: 0.15;
+    filter: blur(0.5rem);
+    transition: filter 0.2s, opacity 0.2s, transform 0.2s;
 }
 
 .grid .link:focus .background-image,
 .grid .item:hover .background-image {
-    opacity: 0;
-    transition: opacity 0.2s, transform 0.2s;
+    opacity: 0.3;
+    filter: blur(0);
+    transition: filter 0.2s, opacity 0.2s, transform 0.2s;
     transform: scale(1.05);
 }
 
 @media screen and (min-width: 38rem) {
     .grid .title,
     .grid .description {
-        opacity: 0.00001;
+        opacity: 1;
         position: relative;
-        top: 1rem;
+        top: 0;
         transition: opacity 0.2s, top 0.2s;
     }
 
@@ -184,8 +186,8 @@ a:focus svg {
     .grid .link:focus .description,
     .grid .item:hover .title,
     .grid .item:hover .description {
-        opacity: 1;
-        top: 0;
+        opacity: 0;
+        top: 1rem;
         transition: opacity 0.2s, top 0.2s;
     }
 }
@@ -269,106 +271,25 @@ a:focus svg {
     background-repeat: no-repeat;
 }
 
-/* Projects
-   ========================================================================== */
-
-#projects {
-
-}
-
-#projects #flash-flash-revolution {
-    grid-column: span 2;
-    grid-row: span 2;
-    background: #28aad1;
+#experience #flash-flash-revolution {
+    grid-column: span 1;
+    grid-row: span 3;
+    background: #2D0050; /* #28aad1; */
     color: #fff;
 }
 
-#projects #flash-flash-revolution .background-image {
+#experience #flash-flash-revolution .background-image {
     background: url("../img/ffr.png");
     background-size: cover;
-    background-position: left top;
+    background-position: center top;
     background-repeat: no-repeat;
 }
-
-#projects #multiphasic-orbit {
-	grid-column: span 1;
-    grid-row: span 2;
-    background-color: #171021;
-    color: #fff;
-}
-
-#projects #multiphasic-orbit .background-image {
-    background: url("../img/multiphasic.jpg");
-    background-size: cover;
-    background-position: left top;
-    background-repeat: no-repeat;
-}
-
-#projects #lux {
-	grid-column: span 1;
-    grid-row: span 1;
-    background-color: #333;
-    color: #fff;
-}
-
-
-#projects #lux .background-image {
-    background: url("../img/lux.jpg");
-    background-size: cover;
-    background-position: center center;
-    background-repeat: no-repeat;
-}
-
-
-#projects #lyns-rhythm-dungeon {
-	grid-column: span 1;
-    grid-row: span 1;
-    background-color: #C00060;
-    color: #fff;
-}
-
-#projects #lyns-rhythm-dungeon .background-image {
-    background: url("../img/lyns.png");
-    background-size: cover;
-    background-position: center center;
-    background-repeat: no-repeat;
-}
-
-
-#projects #pocket-cleric {
-	grid-column: span 1;
-    grid-row: span 1;
-    background-color: rgb(37, 88, 37);
-    color: #fff;
-}
-
-#projects #pocket-cleric .background-image {
-    background: url("../img/pocket-cleric.png");
-    background-size: cover;
-    background-position: center center;
-    background-repeat: no-repeat;
-}
-
-#projects #potted-picasso {
-    grid-column: span 1;
-    grid-row: span 1;
-    background-color: rgb(45, 57, 226);
-    color: #fff;
-}
-
-#projects #potted-picasso .background-image {
-    background: url("../img/pottedpicasso.jpg");
-    background-size: cover;
-    background-position: center center;
-    background-repeat: no-repeat;
-}
-
 
 /* About
    ========================================================================== */
 
 #about {
-    
+
 }
 
 #about figure {
@@ -388,6 +309,10 @@ a:focus svg {
 
 #contact {
     
+}
+
+#contact .header {
+    margin-bottom: 3rem;
 }
 
 #contact .logo {
