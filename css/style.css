@@ -33,8 +33,6 @@ a:focus {
 
 a:focus {
     transition: 0.1s;
-    padding: 0.1em;
-    margin: -0.1em;
     background-color: #0055ff;
     color: #fff;
     text-decoration: underline;
@@ -43,6 +41,10 @@ a:focus {
 
 a:focus svg {
     fill: #fff;
+}
+
+figure {
+    margin: 0;
 }
 
 .content {
@@ -88,6 +90,26 @@ a:focus svg {
     line-height: 1.8rem;
 }
 
+/* Work and projects
+   ========================================================================== */
+
+#work {
+    margin-top: 15vh;
+}
+
+#work .project {
+    margin-top: 6rem;
+}
+
+#work figure {
+    margin: 6rem 0;
+}
+
+.go-back,
+.back-to-top {
+    margin-top: 2rem;
+    font-size: 1.25rem;
+}
 
 /* Grids
    ========================================================================== */
@@ -305,10 +327,6 @@ a:focus svg {
 
 }
 
-#about figure {
-    margin: 0;
-}
-
 #about img {
     max-width: 18rem;
 }
@@ -386,7 +404,7 @@ a:focus svg {
 }
 
 
-/* iViz Lab Project
+/* iVizLab Work
    ========================================================================== */
 
 #ivizlab figure {
