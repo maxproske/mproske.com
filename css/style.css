@@ -21,6 +21,7 @@ a {
     color: #000;
     text-decoration: underline;
     text-decoration-color: #0055ff;
+    display: inline-block;
 }
 
 a:hover,
@@ -32,9 +33,6 @@ a:focus {
 
 a:focus {
     transition: 0.1s;
-    display: inline-block;
-    padding: 0.1em;
-    margin: -0.1em;
     background-color: #0055ff;
     color: #fff;
     text-decoration: underline;
@@ -43,6 +41,10 @@ a:focus {
 
 a:focus svg {
     fill: #fff;
+}
+
+figure {
+    margin: 0;
 }
 
 .content {
@@ -88,6 +90,26 @@ a:focus svg {
     line-height: 1.8rem;
 }
 
+/* Work and projects
+   ========================================================================== */
+
+#work {
+    margin-top: 15vh;
+}
+
+#work .project {
+    margin-top: 6rem;
+}
+
+#work figure {
+    margin: 6rem 0;
+}
+
+.go-back,
+.back-to-top {
+    margin-top: 2rem;
+    font-size: 1.25rem;
+}
 
 /* Grids
    ========================================================================== */
@@ -242,14 +264,14 @@ a:focus svg {
     background-repeat: no-repeat;
 }
 
-#experience #six12-creative {
+#experience #six12creative {
 	grid-column: span 2;
     grid-row: span 2;
     color: #fff;
     background-color: rgba(0, 173, 239, 1);
 }
 
-#experience #six12-creative .background-image {
+#experience #six12creative .background-image {
     background: url("../img/six12.jpg");
     background-size: cover;
     background-position: bottom right;
@@ -278,7 +300,7 @@ a:focus svg {
 }
 
 #experience #ivizlab .background-image {
-    background: url("../img/ivizlab.jpg");
+    background: url("../img/ivizlab/gallery.png");
     background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;
@@ -303,10 +325,6 @@ a:focus svg {
 
 #about {
 
-}
-
-#about figure {
-    margin: 0;
 }
 
 #about img {
@@ -383,6 +401,14 @@ a:focus svg {
     margin: 6rem 0;
     padding-bottom: 6rem;
     border-bottom: 0.1rem solid #ddd;
+}
+
+
+/* iVizLab Work
+   ========================================================================== */
+
+#ivizlab figure {
+    margin: 0;
 }
 
 /* Media Queries
