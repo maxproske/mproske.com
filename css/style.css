@@ -111,6 +111,7 @@ figure {
 
 .go-back,
 .back-to-top {
+    display: block;
     margin-top: 2rem;
     font-size: 1.25rem;
 }
@@ -204,15 +205,14 @@ figure {
 
     opacity: 0.15;
     filter: blur(0.5rem);
-    transition: filter 0.2s, opacity 0.2s, transform 0.2s;
+    transition: filter 0.2s, opacity 0.2s;
 }
 
 .grid .link:focus .background-image,
 .grid .item:hover .background-image {
-    opacity: 0.3;
+    opacity: 0.4;
     filter: blur(0);
-    transition: filter 0.2s, opacity 0.2s, transform 0.2s;
-    transform: scale(1.025);
+    transition: filter 0.2s, opacity 0.2s;
 }
 
 @media screen and (min-width: 38rem) {
