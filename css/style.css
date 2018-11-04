@@ -89,7 +89,7 @@ figure {
     line-height: 1.8rem;
 }
 
-/* Work and projects
+/* Work
    ========================================================================== */
 
 #work {
@@ -101,7 +101,12 @@ figure {
 }
 
 #work figure {
-    margin: 6rem 0;
+    margin: 4rem 0;
+}
+
+#work .image {
+    margin: 4rem 0;
+    max-width: 100%;
 }
 
 .go-back,
@@ -109,6 +114,9 @@ figure {
     margin-top: 2rem;
     font-size: 1.25rem;
 }
+
+/* Work articles
+   ========================================================================== */
 
 /* Grids
    ========================================================================== */
