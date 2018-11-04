@@ -252,7 +252,7 @@ figure {
 /* Experience
    ========================================================================== */
 
-#experience {
+#work {
 
 }
 
@@ -263,56 +263,56 @@ figure {
     background-repeat: no-repeat;
 }
 
-#experience #six12creative {
+#work #six12creative {
 	grid-column: span 2;
     grid-row: span 2;
     color: #fff;
     background-color: rgba(0, 173, 239, 1);
 }
 
-#experience #six12creative .background-image {
+#work #six12creative .background-image {
     background: url("../img/six12.jpg");
     background-size: cover;
     background-position: bottom right;
     background-repeat: no-repeat;
 }
 
-#experience #sfu {
+#work #sfu {
 	grid-column: span 1;
     grid-row: span 2;
     background-color: #A6192E;
     color: #fff;
 }
 
-#experience #sfu .background-image {
+#work #sfu .background-image {
     background: url("../img/sfu.jpg");
     background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;
 }
 
-#experience #ivizlab {
+#work #ivizlab {
 	grid-column: span 1;
     grid-row: span 2;
     background-color: #ef6424;
     color: #fff;
 }
 
-#experience #ivizlab .background-image {
+#work #ivizlab .background-image {
     background: url("../img/ivizlab/gallery.png");
     background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;
 }
 
-#experience #flash-flash-revolution {
+#work #flashflashrevolution {
     grid-column: span 1;
     grid-row: span 3;
     background: #2D0050; /* #28aad1; */
     color: #fff;
 }
 
-#experience #flash-flash-revolution .background-image {
+#work #flashflashrevolution .background-image {
     background: url("../img/ffr.png");
     background-size: cover;
     background-position: center top;
