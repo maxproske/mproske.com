@@ -93,7 +93,7 @@ figure {
    ========================================================================== */
 
 #work {
-    margin-top: 15vh;
+    margin-top: 8rem;
 }
 
 #work .project {
@@ -212,7 +212,7 @@ figure {
     opacity: 0.3;
     filter: blur(0);
     transition: filter 0.2s, opacity 0.2s, transform 0.2s;
-    transform: scale(1.05);
+    transform: scale(1.025);
 }
 
 @media screen and (min-width: 38rem) {
@@ -260,7 +260,7 @@ figure {
 /* Experience
    ========================================================================== */
 
-#work {
+#my-work {
 
 }
 
@@ -271,56 +271,56 @@ figure {
     background-repeat: no-repeat;
 }
 
-#work #six12creative {
+#my-work #six12creative {
 	grid-column: span 2;
     grid-row: span 2;
     color: #fff;
     background-color: rgba(0, 173, 239, 1);
 }
 
-#work #six12creative .background-image {
+#my-work #six12creative .background-image {
     background: url("../img/six12.jpg");
     background-size: cover;
     background-position: bottom right;
     background-repeat: no-repeat;
 }
 
-#work #sfu {
+#my-work #sfu {
 	grid-column: span 1;
     grid-row: span 2;
     background-color: #A6192E;
     color: #fff;
 }
 
-#work #sfu .background-image {
+#my-work #sfu .background-image {
     background: url("../img/sfu.jpg");
     background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;
 }
 
-#work #ivizlab {
+#my-work #ivizlab {
 	grid-column: span 1;
     grid-row: span 2;
     background-color: #ef6424;
     color: #fff;
 }
 
-#work #ivizlab .background-image {
+#my-work #ivizlab .background-image {
     background: url("../img/ivizlab/gallery.png");
     background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;
 }
 
-#work #flashflashrevolution {
+#my-work #flashflashrevolution {
     grid-column: span 1;
     grid-row: span 3;
     background: #2D0050; /* #28aad1; */
     color: #fff;
 }
 
-#work #flashflashrevolution .background-image {
+#my-work #flashflashrevolution .background-image {
     background: url("../img/ffr.png");
     background-size: cover;
     background-position: center top;
