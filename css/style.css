@@ -19,9 +19,12 @@ html {
 
 a {
     color: #000;
+    border-bottom: 0.1rem solid #0055ff;
+    text-decoration: none;
+    /*
     text-decoration: underline;
     text-decoration-color: #0055ff;
-    display: inline-block;
+    */
 }
 
 a:hover,
@@ -67,8 +70,7 @@ figure {
 .header {
     font-weight: 900;
     margin: 0;
-    position: relative;
-    z-index: 10;
+    padding-bottom: 1rem;
 }
 
 .heading {
@@ -190,6 +192,7 @@ figure {
 
 .grid .link {
     text-decoration: none;
+    border: 0;
 }
 
 .grid .link:focus {
@@ -353,12 +356,13 @@ figure {
     
 }
 
-#contact .header {
-}
-
 #contact .logo {
     fill: #333;
     margin: 1rem;
+}
+
+#contact .description:first-of-type {
+    margin-top: 0;
 }
 
 
