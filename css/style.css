@@ -19,9 +19,12 @@ html {
 
 a {
     color: #000;
+    border-bottom: 0.1rem solid #0055ff;
+    text-decoration: none;
+    /*
     text-decoration: underline;
     text-decoration-color: #0055ff;
-    display: inline-block;
+    */
 }
 
 a:hover,
@@ -190,6 +193,7 @@ figure {
 
 .grid .link {
     text-decoration: none;
+    border: 0;
 }
 
 .grid .link:focus {
