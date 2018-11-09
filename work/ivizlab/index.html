@@ -16,6 +16,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="../../css/normalize.css">
     <link rel="stylesheet" href="../../css/style.css">
+    <link rel="icon" type="image/png" href="../../img/favicon.png">
 </head>
 <body>
     <main class="content">
@@ -23,27 +24,29 @@
 
         <section id="work">
             <h1 class="header">iVizLab</h1>
-            <p class="description">During a directed study, I worked closely with Steve DiPaola, the Director of Cognitive Science at SFU, and his team of PhDs, to improve the emotional and expressive realism of a painterly rendering system. I learned advanced image processing, and retraining neural networks for style recognition, while accommodating for backwards compatibility.</p>
+            <p class="description">I improved the emotional and expressive realism of a painterly rendering system, during a directed study with Steve DiPaola, the SFU Director of Cognitive Science.</p>
+                
+            <p class="description">I designed a web interface and back-end which saved a gallery of deep learning model recipes. This would allow researchers to use the painterly rendering system, and tweak its parameters for emotional realism, without needing to receive training on the Linux operating system.</p>
 
             <article class="project">
-                <h2 class="title">Batch Management System</h2>
+                <h2 class="title">Website</h2>
                 <p class="description">Languages: PHP, MySQL, Python.</p>
 
                 <figure class="preview">
                     <img src="../../img/ivizlab/home.png">
                     <figcaption>Home Page</figcaption>
                 </figure>
-                
-                <p class="description">I initially pitched the idea of a web-based resource management solution, because there was no scheduling and all development was to be done through an e-mail chain and TeamViewer, a free personal remote access software.</p>
-                <p class="description">Batch Management System would act as an interface to allow users to use Deep Dream AI, without needing to receive training on the Linux operating system. In addition, I felt requiring a user to peer into the skeleton of lower-level deep dream code was like looking into an open wound. Even though our users would be mainly PhD students, there was a chance someone could accidently add a semicolon, and no-one will be able to use anything again. This was a potential concern I considered while brainstorming for this project.</p>
+
+                <p class="description">By allowing users to choose an image they liked, ask what recipe was used to make it, and understand what parameters could be changed, users could more easily understand the landscape in which they are involved.</p>
+                <p class="description">In addition, there was no automated scheduling, and all development was to be done through an e-mail chain and TeamViewer, a free personal remote access software. I felt the best way to do this was through a user-friendly web interface, that could pass on the user’s custom recipe to be scheduled on a computer through my college’s scheduler project.</p>
 
                 <figure class="preview">
                     <img src="../../img/ivizlab/create.png">
                     <figcaption>Create Page</figcaption>
                 </figure>
 
-                <p class="description">One of the concepts iVizLab was actively trying to accomplish through analysis scripting, was helping users understand the landscape in which we are involved. I wanted to facilitate this, by allowing users to choose an image they liked, ask what recipe was used to make it, and understand what parameters could be changed. I felt the best way to do this was through a user-friendly web interface, that could pass on the user’s custom recipe to be scheduled on a computer through my college’s scheduler project.</p>
                 <p class="description">I created a PHP web application over the course of four weeks, that could upload a source image, and prompt the user to select a model, layer, iteration, octave, and other options. In addition, the user could also select from a gallery of existing recipes.</p>
+                <p class="description">The system would act as an interface to allow users to use Deep Dream AI, without needing to receive training on Linux. In addition, I felt requiring a user to peer into the skeleton of lower-level deep dream code was like looking into an open wound. Even though our users would be mainly PhD students, there was a chance someone could make a mistake.</p>
 
                 <figure class="preview">
                     <img src="../../img/ivizlab/gallery.png">

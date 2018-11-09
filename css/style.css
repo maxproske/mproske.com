@@ -185,6 +185,7 @@ figure {
     position: relative;
     overflow: hidden;
     height: 100%;
+    padding: 2rem;
 }
 
 .grid .link {
