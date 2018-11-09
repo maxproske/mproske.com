@@ -428,9 +428,11 @@ figure {
 /* Media Queries
    ========================================================================== */
 
-@media screen and (max-height: 31rem) {
+@media screen and (max-height: 40rem) {
     /* Collapse fold on short displays */
     #intro {
+        height: initial;
+        margin-bottom: 6rem;
         margin-top: 0;
     }
     .content {
@@ -452,5 +454,8 @@ figure {
     .grid .title,
     .grid .description {
         opacity: 1;
+    }
+    #my-work #flashflashrevolution {
+        grid-row: span 2;
     }
 }
