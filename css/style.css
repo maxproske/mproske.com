@@ -46,6 +46,21 @@ a:focus svg {
     fill: #fff;
 }
 
+[href^="https"]:not([href*="mproske.com"])::after {
+    content: "";
+    display: inline-block;
+    width: 1rem;
+    height: 1rem;
+    text-indent: 1rem;
+    white-space: nowrap;
+    overflow: hidden;
+    background-image: url("../img/external-link.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+    margin-left: 0.25rem;
+}
+
 figure {
     margin: 0;
 }
