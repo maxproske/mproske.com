@@ -27,6 +27,10 @@ a {
     */
 }
 
+img {
+    max-width: 100%;
+}
+
 a:hover,
 a:active,
 a:focus {
@@ -417,21 +421,44 @@ figure {
     border: 1px solid #ddd;
 }
 
-#style-guide #table-of-contents,
-#style-guide #design-ethos {
-    margin: 6rem 0;
+#style-guide #table-of-contents {
 }
 
 #style-guide .header {
     margin-bottom: 2rem;
 }
 
-#style-guide > section {
-    margin: 6rem 0;
-    padding-bottom: 6rem;
+#style-guide .section {
+    margin: 0;
+    padding: 4rem 0 5rem 0;
     border-bottom: 0.1rem solid #ddd;
 }
 
+#style-guide .table-of-contents-title {
+    margin: 2rem 0 0.25rem 0;
+}
+
+#style-guide ul {
+    padding: 0;
+    margin: 0;
+}
+
+#style-guide li {
+    line-height: 2rem;
+    list-style: none;
+}
+
+#style-guide .figure {
+    max-width: 25rem;
+}
+
+#style-guide .example:not(:last-child) {
+    margin-bottom: 6rem;
+}
+
+#style-guide h3 {
+    font-size: 1.5rem;
+}
 
 /* iVizLab Work
    ========================================================================== */
