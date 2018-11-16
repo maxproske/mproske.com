@@ -65,6 +65,10 @@ a:focus svg {
     margin-left: 0.25rem;
 }
 
+.skip {
+    display: none;
+}
+
 figure {
     margin: 0;
 }
@@ -190,7 +194,6 @@ figure {
 }
 
 .grid .logo {
-    fill: #fff;
     margin-bottom: 2rem;
 }
 
@@ -373,11 +376,6 @@ figure {
 
 #contact {
     
-}
-
-#contact .logo {
-    fill: #333;
-    margin: 1rem;
 }
 
 #contact .description:first-of-type {
