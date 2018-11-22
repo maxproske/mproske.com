@@ -356,6 +356,11 @@ figure {
     background-repeat: no-repeat;
 }
 
+.project .side-by-side figure {
+    width: 45%;
+    display: inline-block;
+}
+
 /* About
    ========================================================================== */
 
