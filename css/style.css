@@ -314,42 +314,42 @@ figure {
     background-repeat: no-repeat;
 }
 
-#my-work #sfu {
+#projects-education #sfu {
 	grid-column: span 1;
     grid-row: span 2;
     background-color: #A6192E;
     color: #fff;
 }
 
-#my-work #sfu .background-image {
+#projects-education #sfu .background-image {
     background: url("../img/sfu.jpg");
     background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;
 }
 
-#my-work #ivizlab {
+#projects-education #ivizlab {
 	grid-column: span 1;
     grid-row: span 2;
     background-color: #ef6424;
     color: #fff;
 }
 
-#my-work #ivizlab .background-image {
+#projects-education #ivizlab .background-image {
     background: url("../img/ivizlab/gallery.png");
     background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;
 }
 
-#my-work #flashflashrevolution {
+#projects-education #flashflashrevolution {
     grid-column: span 1;
     grid-row: span 3;
     background: #2D0050; /* #28aad1; */
     color: #fff;
 }
 
-#my-work #flashflashrevolution .background-image {
+#projects-education #flashflashrevolution .background-image {
     background: url("../img/ffr.png");
     background-size: cover;
     background-position: center top;
@@ -495,7 +495,7 @@ figure {
     .grid .description {
         opacity: 1;
     }
-    #my-work #flashflashrevolution {
+    #projects-education #flashflashrevolution {
         grid-row: span 2;
     }
 }
