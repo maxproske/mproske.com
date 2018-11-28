@@ -50,7 +50,7 @@ a:focus svg {
     fill: #fff;
 }
 
-[href^="https"]:not([href*="mproske.com"])::after {
+[href^="http"]:not([href*="mproske.com"])::after {
     content: "";
     display: inline-block;
     width: 1rem;
@@ -61,6 +61,7 @@ a:focus svg {
     background-image: url("../img/external-link.svg");
     background-repeat: no-repeat;
     background-position: center;
+    background-color: #fff;
     background-size: 100%;
     margin-left: 0.25rem;
 }
