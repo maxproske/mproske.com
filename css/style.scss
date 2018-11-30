@@ -497,9 +497,9 @@ figure {
 }
 
 #resume #name {
-    font-size: 4rem;
+    font-size: 5rem;
     font-weight: 900;
-    margin: 4rem 0;
+    margin: 6rem 0 4rem 0;
 }
 
 #resume .section {
@@ -520,41 +520,91 @@ figure {
    line-height: 2.5rem; 
 }
 
-#resume .flex {
-    display: flex;
+#resume .resume-grid {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: auto;
+    grid-gap: 1rem;
 }
 
-#resume {
-    
+#resume .row {
+    margin-top: 1.5rem;
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: auto;
+    grid-gap: 1rem;
+
+    grid-column: span 12;
 }
 
-#resume {
-    
+#resume .line {
+    display: grid;
+
+    grid-column: span 12;
 }
 
-#resume {
-    
+#resume .job {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: auto;
+    grid-gap: 1rem;
+
+    grid-column: span 12;
 }
 
-#resume {
-    
+#resume .list {
+    margin: 0;
 }
 
-#resume {
-    
+#resume .job .list {
+    margin-bottom: 2rem;
 }
 
-#resume {
-    
+#resume .row .date {
+    grid-column: span 2;
+}
+#resume .row .position {
+    grid-column: span 5;
+    font-weight: 600;
+}
+#resume .row .place {
+    grid-column: span 2;
+}
+#resume .row .location {
+    grid-column: span 3;
+    text-align: right;
 }
 
-#resume {
-    
+@media screen and (max-width: 50rem) {
+    #resume .row .date {
+        grid-column: span 12;
+        order: 2;
+    }
+    #resume .row .position {
+        grid-column: span 12;
+        font-size: 1.6rem;
+        line-height: 2.2rem;
+        order: 1;
+    }
+    #resume .row .place {
+        grid-column: span 12;
+        order: 3;
+    }
+    #resume .row .location {
+        grid-column: span 12;
+        text-align: left;
+        order: 4;
+    }
+    #resume .list {
+        margin-left: -2.5rem;
+    }
 }
 
-#resume {
-    
+#resume .section {
+    font-size: 1.25rem;
+    line-height: 1.8rem;
 }
+
 
 /* Media Queries
    ========================================================================== */
