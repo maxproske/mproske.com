@@ -266,7 +266,8 @@ figure {
    ========================================================================== */
 
 #intro {
-    height: 75vh;
+    height: 70vh;
+    max-height: 45rem;
     margin-top: 15vh;
     margin-bottom: -15vh;
 }
@@ -358,15 +359,21 @@ figure {
 }
 
 .project .side-by-side figure {
-    width: 45%;
+    width: 47%;
     display: inline-block;
+}
+
+@media screen and (max-width: 45rem) {
+    .project .side-by-side figure {
+        width: 100%;
+    }
 }
 
 /* About
    ========================================================================== */
 
 #about {
-    overflow: auto; /* Make float element take up full height */
+    overflow: hidden; /* Make float element take up full height */
 }
 
 #about img {
