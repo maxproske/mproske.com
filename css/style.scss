@@ -366,7 +366,7 @@ figure {
    ========================================================================== */
 
 #about {
-
+    overflow: auto; /* Make float element take up full height */
 }
 
 #about img {
@@ -375,6 +375,21 @@ figure {
 
 #about figcaption {
     display: none;
+}
+
+#about .portrait {
+    padding: 0 0 1rem 0;
+}
+
+@media screen and (min-width: 45rem) {
+    #about .portrait {
+        float: left;
+        padding: 0 1rem 0 0;
+    }
+}
+
+#about .description:first-of-type {
+    margin-top: 0;
 }
 
 /* Contact
