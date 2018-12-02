@@ -16,6 +16,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="../../css/main.css">
     <link rel="icon" type="image/png" href="../../img/favicon.png">
+
+    <!-- Critical CSS -->
+    <link rel="stylesheet" href="../../css/main.css">
+
+    <!-- Non-critical CSS -->
+    <link rel="preload" href="../../css/lazy.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+    <noscript><link rel="stylesheet" href="../../css/lazy.css"></noscript>
+    <script>!function(w){"use strict";var loadCSS=function(href,before,media){function loadCB(){ss.addEventListener&&ss.removeEventListener("load",loadCB),ss.media=media||"all"}var ref,doc=w.document,ss=doc.createElement("link");if(before)ref=before;else{var refs=(doc.body||doc.getElementsByTagName("head")[0]).childNodes;ref=refs[refs.length-1]}var sheets=doc.styleSheets;ss.rel="stylesheet",ss.href=href,ss.media="only x",function ready(cb){if(doc.body)return cb();setTimeout(function(){ready(cb)})}(function(){ref.parentNode.insertBefore(ss,before?ref:ref.nextSibling)});var onloadcssdefined=function(cb){for(var resolvedHref=ss.href,i=sheets.length;i--;)if(sheets[i].href===resolvedHref)return cb();setTimeout(function(){onloadcssdefined(cb)})};return ss.addEventListener&&ss.addEventListener("load",loadCB),(ss.onloadcssdefined=onloadcssdefined)(loadCB),ss};"undefined"!=typeof exports?exports.loadCSS=loadCSS:w.loadCSS=loadCSS}("undefined"!=typeof global?global:this);</script>
 </head>
 <body>
     <a class="skip" href="#content">Skip to content</a>
@@ -29,7 +37,8 @@
             <p class="description">Today, the game still maintains over 1,000 daily players and 15,000 monthly active players.</p>
 
             <figure>
-                <img class="image" src="../../img/ffr/ffr-multiplayer.png" alt="Multiplayer Gameplay">
+                <img src="../../img/ffr/ffr-multiplayer_lowres.jpg" data-src="../../img/ffr/ffr-multiplayer.png" class="lazyload blur image" alt="Multiplayer Gameplay">
+                <noscript><img src="../../img/ffr/ffr-multiplayer.png" alt="Multiplayer Gameplay"></noscript>
                 <figcaption>Multiplayer Gameplay</figcaption>
             </figure>
 
@@ -39,15 +48,16 @@
                 <p class="description">I'm currently working on a complete semantic rewrite from the ground up. The current design from 2009 is not effective to navigate, and is barring new players from accessing our content. I am analyzing each feature and determining what pages should be adapted or excluded.</p>
 
                 <div class="side-by-side">
-                <figure>
-                    <img class="image" src="../../img/ffr/ffr-live-site.png" alt="Old Homepage Design">
-                    <figcaption>Old Homepage Design</figcaption>
-                </figure>
-
-                <figure>
-                    <img class="image" src="../../img/ffr/ffr-dev-site.png" alt="New Homepage Design">
-                    <figcaption>New Homepage Design</figcaption>
-                </figure>
+                    <figure>
+                        <img src="../../img/ffr/ffr-live-site_lowres.jpg" data-src="../../img/ffr/ffr-live-site.png" class="lazyload blur image" alt="Old Homepage Design">
+                        <noscript><img src="../../img/ffr/ffr-live-site.png" alt="Old Homepage Design"></noscript>
+                        <figcaption>Old Homepage Design</figcaption>
+                    </figure>
+                    <figure>
+                        <img src="../../img/ffr/ffr-dev-site_lowres.jpg" data-src="../../img/ffr/ffr-dev-site.png" class="lazyload blur image" alt="New Homepage Design">
+                        <noscript><img src="../../img/ffr/ffr-dev-site.png" alt="New Homepage Design"></noscript>
+                        <figcaption>New Homepage Design</figcaption>
+                    </figure>
                 </div>
             </article>
 
@@ -60,7 +70,8 @@
                 <p class="description">I helped develop a new engine build for Adobe AIR, with additional features including a desktop application, hardware acceleration, vsync, auto offset calibration, and a built-in patcher.</p>
             
                 <figure>
-                    <img class="image" src="../../img/ffr/ffr-menu.png" alt="Song Selection Screen">
+                    <img src="../../img/ffr/ffr-menu_lowres.jpg" data-src="../../img/ffr/ffr-menu.png" class="lazyload blur image" alt="Song Selection Screen">
+                    <noscript><img src="../../img/ffr/ffr-menu.png" alt="Song Selection Screen"></noscript>
                     <figcaption>Song Selection Screen</figcaption>
                 </figure>
             </article>
@@ -70,5 +81,6 @@
         <div class="go-back"><a href="../../#projects-education">Go back</a></div>
     </main>
     <footer id="footer">&nbsp;</footer>
+    <script src="../../js/lazysizes.min.js"></script>
 </body>
 </html>
