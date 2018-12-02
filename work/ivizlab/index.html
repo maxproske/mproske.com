@@ -16,6 +16,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="../../css/main.css">
     <link rel="icon" type="image/png" href="../../img/favicon.png">
+
+    <!-- Critical CSS -->
+    <link rel="stylesheet" href="../../css/main.css">
+
+    <!-- Non-critical CSS -->
+    <link rel="preload" href="../../css/lazy.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+    <noscript><link rel="stylesheet" href="../../css/lazy.css"></noscript>
+    <script>!function(w){"use strict";var loadCSS=function(href,before,media){function loadCB(){ss.addEventListener&&ss.removeEventListener("load",loadCB),ss.media=media||"all"}var ref,doc=w.document,ss=doc.createElement("link");if(before)ref=before;else{var refs=(doc.body||doc.getElementsByTagName("head")[0]).childNodes;ref=refs[refs.length-1]}var sheets=doc.styleSheets;ss.rel="stylesheet",ss.href=href,ss.media="only x",function ready(cb){if(doc.body)return cb();setTimeout(function(){ready(cb)})}(function(){ref.parentNode.insertBefore(ss,before?ref:ref.nextSibling)});var onloadcssdefined=function(cb){for(var resolvedHref=ss.href,i=sheets.length;i--;)if(sheets[i].href===resolvedHref)return cb();setTimeout(function(){onloadcssdefined(cb)})};return ss.addEventListener&&ss.addEventListener("load",loadCB),(ss.onloadcssdefined=onloadcssdefined)(loadCB),ss};"undefined"!=typeof exports?exports.loadCSS=loadCSS:w.loadCSS=loadCSS}("undefined"!=typeof global?global:this);</script>
 </head>
 <body>
     <a class="skip" href="#content">Skip to content</a>
@@ -31,17 +39,17 @@
                 <p class="description">As part of a directed study with <a href="https://www.dipaola.org/" target="_blank">Steve DiPaola</a>, past Director of Cognitive Science at <a href="https://www.sfu.ca/" target="_blank">Simon Fraser University</a>, I proposed a solution that would improve scheduling, replace a very long e-mail chain, and eliminate the need to remote-in with TeamViewer. I designed a PHP web application, that could send any image processing requests to iVizLab's rendering workstation.</p>
 
                 <figure class="preview">
-                    <img src="../../img/ivizlab/gallery.png" alt="Gallery Page">
+                    <img src="../../img/ivizlab/gallery_lowres.jpg" data-src="../../img/ivizlab/gallery.png" class="lazyload blur image" alt="Wireframe of the gallery page, with 3 finished renders">
+                    <noscript><img src="../../img/ivizlab/gallery.png" alt="Wireframe of the gallery page, with 3 finished renders"></noscript>
                     <figcaption>Wireframe of the gallery page, with 3 finished renders</figcaption>
                 </figure>
-                
                 <p class="description">Users could upload any source image, select their desired parameters, and browse a gallery of existing recipes. By allowing users to select what output image they liked, ask what recipe was used to make it, and understand what parameters could be tweaked, researchers could more easily understand the landscape in which they are involved.</p>
 
                 <figure class="preview">
-                    <img src="../../img/ivizlab/create.png" alt="Create Page">
+                    <img src="../../img/ivizlab/create_lowres.jpg" data-src="../../img/ivizlab/create.png" class="lazyload blur image" alt="Wireframe of the deep learning model selection screen, after uploading a source image">
+                    <noscript><img src="../../img/ivizlab/create.png" alt="Wireframe of the deep learning model selection screen, after uploading a source image"></noscript>
                     <figcaption>Wireframe of the deep learning model selection screen, after uploading a source image.</figcaption>
                 </figure>
-
                 <p class="description">My application was designed to improve the efficiency of researchers, and eliminate the issue of wait time for access to the rendering workstation.</p>
             </article>
         </section>
@@ -50,5 +58,6 @@
         <div class="go-back"><a href="../../#projects-education">Go back</a></div>
     </main>
     <footer id="footer">&nbsp;</footer>
+    <script src="../../js/lazysizes.min.js"></script>
 </body>
 </html>

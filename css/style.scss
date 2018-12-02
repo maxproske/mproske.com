@@ -72,6 +72,7 @@ a:focus svg {
 
 figure {
     margin: 0;
+    overflow: hidden; /* For lazy loading images */
 }
 
 .content {
@@ -376,8 +377,12 @@ figure {
     overflow: hidden; /* Make float element take up full height */
 }
 
-#about img {
+#about figure {
     max-width: 18rem;
+}
+
+#about figure img {
+    width: 18rem;
 }
 
 #about figcaption {

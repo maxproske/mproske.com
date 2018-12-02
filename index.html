@@ -14,8 +14,15 @@
     <meta charset="utf-8">
     <title>Max Proske / Full Stack Web Developer</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="css/main.css">
     <link rel="icon" type="image/png" href="img/favicon.png">
+
+    <!-- Critical CSS -->
+    <link rel="stylesheet" href="css/main.css">
+
+    <!-- Non-critical CSS -->
+    <link rel="preload" href="css/lazy.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+    <noscript><link rel="stylesheet" href="css/lazy.css"></noscript>
+    <script>!function(w){"use strict";var loadCSS=function(href,before,media){function loadCB(){ss.addEventListener&&ss.removeEventListener("load",loadCB),ss.media=media||"all"}var ref,doc=w.document,ss=doc.createElement("link");if(before)ref=before;else{var refs=(doc.body||doc.getElementsByTagName("head")[0]).childNodes;ref=refs[refs.length-1]}var sheets=doc.styleSheets;ss.rel="stylesheet",ss.href=href,ss.media="only x",function ready(cb){if(doc.body)return cb();setTimeout(function(){ready(cb)})}(function(){ref.parentNode.insertBefore(ss,before?ref:ref.nextSibling)});var onloadcssdefined=function(cb){for(var resolvedHref=ss.href,i=sheets.length;i--;)if(sheets[i].href===resolvedHref)return cb();setTimeout(function(){onloadcssdefined(cb)})};return ss.addEventListener&&ss.addEventListener("load",loadCB),(ss.onloadcssdefined=onloadcssdefined)(loadCB),ss};"undefined"!=typeof exports?exports.loadCSS=loadCSS:w.loadCSS=loadCSS}("undefined"!=typeof global?global:this);</script>
 </head>
 <body>
     <a class="skip" href="#content">Skip to content</a>
@@ -89,7 +96,8 @@
         <section id="about">
             <h1 class="header">About Me</h1>
             <figure class="portrait">
-                <img src="img/me.jpg" alt="Me">
+                <img src="img/me_lowres.jpg" data-src="img/me.jpg" class="lazyload blur" alt="Me">
+                <noscript><img src="img/me.jpg" alt="Me"></noscript>
                 <figcaption>Hi, I'm Max!</figcaption>
             </figure>
             <p class="description">I have a keen interest in combining Computing Science and Human-Computer Interaction principles, to develop highly interactive websites and games.</p>
@@ -105,5 +113,6 @@
         </section>
     </main>
     <footer id="footer">&nbsp;</footer>
+    <script src="js/lazysizes.min.js"></script>
 </body>
 </html>

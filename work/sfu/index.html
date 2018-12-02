@@ -16,6 +16,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="../../css/main.css">
     <link rel="icon" type="image/png" href="../../img/favicon.png">
+
+    <!-- Critical CSS -->
+    <link rel="stylesheet" href="../../css/main.css">
+
+    <!-- Non-critical CSS -->
+    <link rel="preload" href="../../css/lazy.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+    <noscript><link rel="stylesheet" href="../../css/lazy.css"></noscript>
+    <script>!function(w){"use strict";var loadCSS=function(href,before,media){function loadCB(){ss.addEventListener&&ss.removeEventListener("load",loadCB),ss.media=media||"all"}var ref,doc=w.document,ss=doc.createElement("link");if(before)ref=before;else{var refs=(doc.body||doc.getElementsByTagName("head")[0]).childNodes;ref=refs[refs.length-1]}var sheets=doc.styleSheets;ss.rel="stylesheet",ss.href=href,ss.media="only x",function ready(cb){if(doc.body)return cb();setTimeout(function(){ready(cb)})}(function(){ref.parentNode.insertBefore(ss,before?ref:ref.nextSibling)});var onloadcssdefined=function(cb){for(var resolvedHref=ss.href,i=sheets.length;i--;)if(sheets[i].href===resolvedHref)return cb();setTimeout(function(){onloadcssdefined(cb)})};return ss.addEventListener&&ss.addEventListener("load",loadCB),(ss.onloadcssdefined=onloadcssdefined)(loadCB),ss};"undefined"!=typeof exports?exports.loadCSS=loadCSS:w.loadCSS=loadCSS}("undefined"!=typeof global?global:this);</script>
 </head>
 <body>
     <a class="skip" href="#content">Skip to content</a>
@@ -29,7 +37,8 @@
             <article class="project">
                 <h2 class="title">An Hour With Mozilla</h2>
                 <figure>
-                    <img src="../../img/sfu/mozilla.jpg" alt="An Hour With Mozilla">
+                    <img src="../../img/sfu/mozilla_lowres.jpg" data-src="../../img/sfu/mozilla.jpg" class="lazyload blur image" alt="An Hour With Mozilla">
+                    <noscript><img src="../../sfu/mozilla.jpg" alt="An Hour With Mozilla"></noscript>
                     <figcaption>An Hour With Mozilla</figcaption>
                 </figure>
                 <p class="description">I wanted to host an event that would showcase a distinguished software engineer's beginnings in Computing Science. With the research assistance of my colleagues in the Computer Science Student Society, I was able to arrange a keynote talk with a member of the Mozilla Firefox development team.</p>
@@ -41,5 +50,6 @@
         <div class="go-back"><a href="../../#projects-education">Go back</a></div>
     </main>
     <footer id="footer">&nbsp;</footer>
+    <script src="../../js/lazysizes.min.js"></script>
 </body>
 </html>
