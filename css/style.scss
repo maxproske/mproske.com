@@ -46,10 +46,6 @@ a:focus {
     text-decoration-color: #fff;
 }
 
-a:focus svg {
-    fill: #fff;
-}
-
 [href^="http"]:not([href*="mproske.com"])::after {
     content: "";
     display: inline-block;
