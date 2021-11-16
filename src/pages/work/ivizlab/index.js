@@ -4,22 +4,22 @@ export default function () {
   return (
     <>
       <Link href="#content">
-        <a class="skip">Skip to content</a>
+        <a className="skip">Skip to content</a>
       </Link>
-      <main id="content" class="content">
-        <div class="go-back">
+      <main id="content" className="content">
+        <div className="go-back">
           <Link href="/#projects-education">
             <a>Go back</a>
           </Link>
         </div>
 
         <section id="work">
-          <h1 class="header">iVizLab</h1>
+          <h1 className="header">iVizLab</h1>
 
-          <article class="project">
-            <h2 class="title">Batch Management System</h2>
-            <p class="description">Tools: PHP, MySQL, Axure.</p>
-            <p class="description">
+          <article className="project">
+            <h2 className="title">Batch Management System</h2>
+            <p className="description">Tools: PHP, MySQL, Axure.</p>
+            <p className="description">
               As part of a directed study with{' '}
               <Link href="https://www.dipaola.org">
                 <a target="_blank">Steve DiPaola</a>
@@ -33,11 +33,11 @@ export default function () {
               requests to iVizLab's rendering workstation.
             </p>
 
-            <figure class="preview">
+            <figure className="preview">
               <img
                 src="/img/ivizlab/gallery_lowres.jpg"
                 data-src="/img/ivizlab/gallery.png"
-                class="lazyload blur image"
+                className="lazyload blur image"
                 alt="Gallery page"
               />
               <noscript>
@@ -45,18 +45,18 @@ export default function () {
               </noscript>
               <figcaption>Wireframe of the gallery page, with 3 finished renders</figcaption>
             </figure>
-            <p class="description">
+            <p className="description">
               Users could upload any source image, select their desired parameters, and browse a gallery of existing
               recipes. By allowing users to select what output image they liked, ask what recipe was used to make it,
               and understand what parameters could be tweaked, researchers could more easily understand the landscape in
               which they are involved.
             </p>
 
-            <figure class="preview">
+            <figure className="preview">
               <img
                 src="/img/ivizlab/create_lowres.jpg"
                 data-src="/img/ivizlab/create.png"
-                class="lazyload blur image"
+                className="lazyload blur image"
                 alt="Selection screen"
               />
               <noscript>
@@ -66,19 +66,19 @@ export default function () {
                 Wireframe of the deep learning model selection screen, after uploading a source image.
               </figcaption>
             </figure>
-            <p class="description">
+            <p className="description">
               My application was designed to improve the efficiency of researchers, and eliminate the issue of wait time
               for access to the rendering workstation.
             </p>
           </article>
         </section>
 
-        <div class="back-to-top">
+        <div className="back-to-top">
           <Link href="#">
             <a>Back to top</a>
           </Link>
         </div>
-        <div class="go-back">
+        <div className="go-back">
           <Link href="/#my-work">
             <a>Go back</a>
           </Link>

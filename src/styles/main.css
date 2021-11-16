@@ -370,7 +370,7 @@ html {
 
 a {
   color: #000;
-  border-bottom: 0.1rem solid #0055ff;
+  border-bottom: 2px solid #0055ff;
   text-decoration: none;
   /*
     text-decoration: underline;

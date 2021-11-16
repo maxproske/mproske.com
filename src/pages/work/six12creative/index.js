@@ -4,18 +4,18 @@ export default function () {
   return (
     <>
       <Link href="#content">
-        <a class="skip">Skip to content</a>
+        <a className="skip">Skip to content</a>
       </Link>
-      <main id="content" class="content">
-        <div class="go-back">
+      <main id="content" className="content">
+        <div className="go-back">
           <Link href="/#my-work">
             <a>Go back</a>
           </Link>
         </div>
 
         <section id="work">
-          <h1 class="header">SIX12 Creative</h1>
-          <p class="description">
+          <h1 className="header">SIX12 Creative</h1>
+          <p className="description">
             In my capacity as full stack web developer at{' '}
             <Link href="https://six12creative.com">
               <a target="_blank">SIX12 Creative</a>
@@ -24,15 +24,15 @@ export default function () {
             food industries. I have a skilled understanding of developing PHP web applications from start to finish,
             including sites backed by Wordpress and Drupal.
           </p>
-          <p class="description">
+          <p className="description">
             I enjoy continuously improving internal development processes, reading and writing documentation, as well as
             researching and sharing new technologies that could apply in our workflow.
           </p>
 
-          <article class="project">
-            <h2 class="title">Flip The Lip Contest</h2>
-            <p class="description">Tools: Drupal 8, PHP, MySQL.</p>
-            <p class="description">
+          <article className="project">
+            <h2 className="title">Flip The Lip Contest</h2>
+            <p className="description">Tools: Drupal 8, PHP, MySQL.</p>
+            <p className="description">
               <Link href="https://flipthelip.ca/">
                 <a target="_blank">Flip The Lip</a>
               </Link>{' '}
@@ -44,7 +44,7 @@ export default function () {
               <img
                 src="/img/six12/ftl4-website_lowres.jpg"
                 data-src="/img/six12/ftl4-website.jpg"
-                class="lazyload blur image"
+                className="lazyload blur image"
                 alt="Flip The Lip 4 Promo"
               />
               <noscript>
@@ -54,10 +54,10 @@ export default function () {
             </figure>
           </article>
 
-          <article class="project">
-            <h2 class="title">Destiny 2 + Rockstar Promotion</h2>
-            <p class="description">Tools: Facebook Apps, PHP, MySQL.</p>
-            <p class="description">
+          <article className="project">
+            <h2 className="title">Destiny 2 + Rockstar Promotion</h2>
+            <p className="description">Tools: Facebook Apps, PHP, MySQL.</p>
+            <p className="description">
               This contest offered daily sweepstakes for the chance to win a copy of Destiny 2 and other physical game
               swag. Contestants entered via Facebook or the Circle K mobile app. Contest website and prize fulfillment
               by SIX12 Creative.
@@ -67,7 +67,7 @@ export default function () {
               <img
                 src="/img/six12/destiny2-full_lowres.jpg"
                 data-src="/img/six12/destiny2-full.png"
-                class="lazyload blur image"
+                className="lazyload blur image"
                 alt="Destiny 2 Rockstar Contest Banner"
               />
               <noscript>
@@ -77,10 +77,10 @@ export default function () {
             </figure>
           </article>
 
-          <article class="project">
-            <h2 class="title">Vancity Plating</h2>
-            <p class="description">Tools: WordPress, PHP, MySQL.</p>
-            <p class="description">
+          <article className="project">
+            <h2 className="title">Vancity Plating</h2>
+            <p className="description">Tools: WordPress, PHP, MySQL.</p>
+            <p className="description">
               <Link href="http://vancityplating.com/">
                 <a target="_blank">Vancity Plating</a>
               </Link>{' '}
@@ -91,7 +91,7 @@ export default function () {
               <img
                 src="/img/six12/vancityplating-gallery_lowres.jpg"
                 data-src="/img/six12/vancityplating-gallery.png"
-                class="lazyload blur image"
+                className="lazyload blur image"
                 alt="Vancity Plating Gallery"
               />
               <noscript>
@@ -101,15 +101,15 @@ export default function () {
             </figure>
           </article>
 
-          <article class="project">
-            <h2 class="title">AIMS</h2>
-            <p class="description">Tools: Drupal 7, PHP, MySQL.</p>
-            <p class="description">
+          <article className="project">
+            <h2 className="title">AIMS</h2>
+            <p className="description">Tools: Drupal 7, PHP, MySQL.</p>
+            <p className="description">
               AIMS is a web-based checklist and reporting system for health and safety regulations, in-store
               merchandising, and other procedure checks. The system has expanded to thousands of convenience stores
               across North America.
             </p>
-            <p class="description">
+            <p className="description">
               This real time operations management tool is built with Drupal 7. It is designed for easy use on mobile
               devices and tablets, and is fully customizable by client admins.
             </p>
@@ -120,7 +120,7 @@ export default function () {
                 <img
                   src="/img/six12/aims_lowres.jpg"
                   data-src="/img/six12/aims.jpg"
-                  class="lazyload blur image"
+                  className="lazyload blur image"
                   alt="AIMS"
                 />
               </picture>

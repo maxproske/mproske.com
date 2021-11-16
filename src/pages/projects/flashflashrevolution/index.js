@@ -4,30 +4,30 @@ export default function () {
   return (
     <>
       <Link href="#content">
-        <a class="skip">Skip to content</a>
+        <a className="skip">Skip to content</a>
       </Link>
-      <main id="content" class="content">
-        <div class="go-back">
+      <main id="content" className="content">
+        <div className="go-back">
           <Link href="/#projects-education">
             <a>Go back</a>
           </Link>
         </div>
 
         <section id="work">
-          <h1 class="header">Flash Flash Revolution</h1>
-          <p class="description">
+          <h1 className="header">Flash Flash Revolution</h1>
+          <p className="description">
             <Link href="http://www.flashflashrevolution.com/FFR_the_Game.php">
               <a target="_blank">Flash Flash Revolution</a>
             </Link>{' '}
             is a free online rhythm game, that was first released in 2002. The name is a tribute to Dance Dance
             Revolution, but is meant to be played using your keyboard.
           </p>
-          <p class="description">
+          <p className="description">
             I am responsible for posting monthly updates, server-side programming (PHP, MySQL), and engine development
             (Haxe, AS3). I aim to represent the interests of the community, and implemented new and improved features
             which improve overall user experience.
           </p>
-          <p class="description">
+          <p className="description">
             Today, the game still maintains over 1,000 daily players and 15,000 monthly active players.
           </p>
 
@@ -35,7 +35,7 @@ export default function () {
             <img
               src="/img/ffr/ffr-multiplayer_lowres.jpg"
               data-src="/img/ffr/ffr-multiplayer.png"
-              class="lazyload blur image"
+              className="lazyload blur image"
               alt="Multiplayer Gameplay"
             />
             <noscript>
@@ -44,21 +44,21 @@ export default function () {
             <figcaption>Multiplayer Gameplay</figcaption>
           </figure>
 
-          <article class="project">
-            <h2 class="title">Website Redesign</h2>
-            <p class="description">Tools: PHP, HTML5, CSS3, JavaScript, MySQL, Golang.</p>
-            <p class="description">
+          <article className="project">
+            <h2 className="title">Website Redesign</h2>
+            <p className="description">Tools: PHP, HTML5, CSS3, JavaScript, MySQL, Golang.</p>
+            <p className="description">
               I'm currently working on a complete semantic rewrite from the ground up. The current design from 2009 is
               not effective to navigate, and is barring new players from accessing our content. I am analyzing each
               feature and determining what pages should be adapted or excluded.
             </p>
 
-            <div class="side-by-side">
+            <div className="side-by-side">
               <figure>
                 <img
                   src="/img/ffr/ffr-live-site_lowres.jpg"
                   data-src="/img/ffr/ffr-live-site.png"
-                  class="lazyload blur image"
+                  className="lazyload blur image"
                   alt="Old Homepage Design"
                 />
                 <noscript>
@@ -70,7 +70,7 @@ export default function () {
                 <img
                   src="/img/ffr/ffr-dev-site_lowres.jpg"
                   data-src="/img/ffr/ffr-dev-site.png"
-                  class="lazyload blur image"
+                  className="lazyload blur image"
                   alt="New Homepage Design"
                 />
                 <noscript>
@@ -81,11 +81,11 @@ export default function () {
             </div>
           </article>
 
-          <article class="project">
-            <h2 class="title">R^3 Air Edition</h2>
-            <p class="description">Tools: AIR SDK, PHP, MySQL.</p>
+          <article className="project">
+            <h2 className="title">R^3 Air Edition</h2>
+            <p className="description">Tools: AIR SDK, PHP, MySQL.</p>
 
-            <p class="description">
+            <p className="description">
               R^3 Air Edition is the same great game,{' '}
               <a
                 href="https://www.bemanistyle.com/flash-flash-revolution-ditches-flash-brand-new-update/"
@@ -95,7 +95,7 @@ export default function () {
               </a>
               .
             </p>
-            <p class="description">
+            <p className="description">
               Up until 2017, Flash Flash Revolution could only be played through Adobe Flash Player and an Internet
               browser. With degrading performance on modern systems, and{' '}
               <Link href="https://www.reuters.com/article/us-adobe-systems-flash-idUSKBN1AA22R">
@@ -103,7 +103,7 @@ export default function () {
               </Link>
               , something needed to be done.
             </p>
-            <p class="description">
+            <p className="description">
               I helped develop a new engine build for Adobe AIR, with additional features including a desktop
               application, hardware acceleration, vsync, auto offset calibration, and a built-in patcher.
             </p>
@@ -112,7 +112,7 @@ export default function () {
               <img
                 src="/img/ffr/ffr-menu_lowres.jpg"
                 data-src="/img/ffr/ffr-menu.png"
-                class="lazyload blur image"
+                className="lazyload blur image"
                 alt="Song Selection Screen"
               />
               <noscript>
@@ -123,12 +123,12 @@ export default function () {
           </article>
         </section>
 
-        <div class="back-to-top">
+        <div className="back-to-top">
           <Link href="#">
             <a>Back to top</a>
           </Link>
         </div>
-        <div class="go-back">
+        <div className="go-back">
           <Link href="/#my-work">
             <a>Go back</a>
           </Link>
