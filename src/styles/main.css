@@ -364,7 +364,7 @@ template {
 
 html {
   font-family: "Roboto", sans-serif;
-  scroll-behavior: smooth;
+  /* scroll-behavior: smooth; */
   color: #000;
 }
 
@@ -684,6 +684,20 @@ figure {
 
 #projects-education #ivizlab .background-image {
   background: url("/img/ivizlab/gallery.png");
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+
+#projects-education #lra {
+  grid-column: span 1;
+  grid-row: span 2;
+  background-color: #439aa0;
+  color: #fff;
+}
+
+#projects-education #lra .background-image {
+  background: url("/img/lra/demo.png");
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;

@@ -1,7 +1,7 @@
 import Head from 'next/head'
 import 'src/styles/main.css'
 
-function MyApp({ Component, pageProps }) {
+const App = ({ Component, pageProps }) => {
   return (
     <>
       <Head>
@@ -27,4 +27,4 @@ gtag('config', 'UA-128642324-1');
   )
 }
 
-export default MyApp
+export default App
