@@ -90,6 +90,7 @@ export default function () {
               <a
                 href="https://www.bemanistyle.com/flash-flash-revolution-ditches-flash-brand-new-update/"
                 target="_blank"
+                rel="noreferrer"
               >
                 built entirely without Flash
               </a>

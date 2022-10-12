@@ -190,8 +190,8 @@ export default function () {
                   <br />
                   &nbsp;&nbsp;&nbsp;&nbsp;&lt;article className=&quot;item&quot;&gt;
                   <br />
-                  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;h3 className=&quot;title&quot;&gt;First Year Computing
-                  Science Representative&lt;/h3&gt;
+                  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;h3 className=&quot;title&quot;&gt;First Year
+                  Computing Science Representative&lt;/h3&gt;
                   <br />
                   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;div className=&quot;logo&quot;&gt;
                   <br />
@@ -226,8 +226,8 @@ export default function () {
                   <br />
                   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;/div&gt;
                   <br />
-                  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;p className=&quot;description&quot;&gt;Simon Fraser
-                  University, 2013-2014.&lt;/p&gt;
+                  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;p className=&quot;description&quot;&gt;Simon
+                  Fraser University, 2013-2014.&lt;/p&gt;
                   <br />
                   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;div
                   className=&quot;background-image&quot;&gt;&lt;/div&gt;
