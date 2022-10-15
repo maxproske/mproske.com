@@ -846,11 +846,38 @@ figure {
   font-size: 1.5rem;
 }
 
-/* iVizLab Work
+/* Work
    ========================================================================== */
 
 #ivizlab figure {
   margin: 0;
+}
+
+#work .awards {
+  display: flex;
+  margin: 2rem 0;
+  gap: 1rem;
+}
+
+#work .award {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+}
+
+#work .award-icon {
+  max-width: 4rem;
+  height: auto;
+}
+
+#work .award-description {
+  text-align: center;
+  font-size: 1.25rem;
+  line-height: 1.8rem;
+}
+
+#work .award-description strong {
+  font-size: 1.4rem;
 }
 
 /* Resume

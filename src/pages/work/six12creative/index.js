@@ -1,6 +1,7 @@
 import Link from 'next/link'
+import Image from 'next/image'
 
-export default function () {
+export default function SIX12() {
   return (
     <>
       <Link href="#content">
@@ -15,124 +16,78 @@ export default function () {
 
         <section id="work">
           <h1 className="header">SIX12 Creative</h1>
+          <div className="awards">
+            <div className="award">
+              <div className="award-icon">
+                <Image src="/img/icons/icons8-laurel-wreath-90.png" width="90" height="90" alt="Award" />
+              </div>
+              <div className="award-description">
+                <strong>Top 100</strong>
+                <br /> Fastest-Growing Companies in BC <br />
+                2022
+              </div>
+            </div>
+            <div className="award">
+              <div className="award-icon">
+                <Image src="/img/icons/icons8-laurel-wreath-90.png" width="90" height="90" alt="Award" />
+              </div>
+              <div className="award-description">
+                <strong>Top 100</strong>
+                <br /> Fastest-Growing Companies in BC <br />
+                2021
+              </div>
+            </div>
+            <div className="award">
+              <div className="award-icon">
+                <Image src="/img/icons/icons8-laurel-wreath-90.png" width="90" height="90" alt="Award" />
+              </div>
+              <div className="award-description">
+                <strong>Top 100</strong>
+                <br /> Fastest-Growing Companies in BC <br />
+                2020
+              </div>
+            </div>
+            <div className="award">
+              <div className="award-icon">
+                <Image src="/img/icons/icons8-laurel-wreath-90.png" width="90" height="90" alt="Award" />
+              </div>
+              <div className="award-description">
+                <strong>Top 100</strong>
+                <br /> Most Profitable Companies in BC <br />
+                2020
+              </div>
+            </div>
+            <div className="award">
+              <div className="award-icon">
+                <Image src="/img/icons/icons8-laurel-wreath-90.png" width="90" height="90" alt="Award" />
+              </div>
+              <div className="award-description">
+                <strong>Top 100</strong>
+                <br /> Fastest-Growing Companies in BC <br />
+                2019
+              </div>
+            </div>
+          </div>
           <p className="description">
-            In my capacity as full stack web developer at{' '}
+            In my capacity as Development Team Lead at{' '}
             <Link href="https://six12creative.com">
               <a target="_blank">SIX12 Creative</a>
             </Link>
-            , I have built commercial websites for national and international clients, across retail, industrial, and
-            food industries. I have a skilled understanding of developing PHP web applications from start to finish,
-            including sites backed by Wordpress and Drupal.
+            , I have led the development of over 80 major gamification projects, aimed at driving foot traffic to brick
+            and mortar convenience store locations across North America.
           </p>
           <p className="description">
-            I enjoy continuously improving internal development processes, reading and writing documentation, as well as
-            researching and sharing new technologies that could apply in our workflow.
+            I have built promotional websites using static and server-side rendering React frameworks, high volume SMS
+            shortcode services, and robust and secure REST APIs.
+          </p>
+          <p className="description">
+            Key clients: Circle K, Couche-Tard, Holiday Stationstores, NFL, NHL, NBA, Pepsi, Coke, Nestle, Unilever,
+            GURU Energy, Redbull, Monster Energy, Modelez, Hershey
           </p>
 
-          <article className="project">
-            <h2 className="title">Flip The Lip Contest</h2>
-            <p className="description">Tools: Drupal 8, PHP, MySQL.</p>
-            <p className="description">
-              <Link href="https://flipthelip.ca/">
-                <a target="_blank">Flip The Lip</a>
-              </Link>{' '}
-              is run twice per year in association with Circle K and Mac’s Convenience Stores. Contest website, product
-              design, and prize fulfillment by SIX12 Creative.
-            </p>
-
-            <figure>
-              <img
-                src="/img/six12/ftl4-website_lowres.jpg"
-                data-src="/img/six12/ftl4-website.jpg"
-                className="lazyload blur image"
-                alt="Flip The Lip 4 Promo"
-              />
-              <noscript>
-                <img src="/img/six12/ftl4-website.jpg" alt="Flip The Lip 4 Promo" />
-              </noscript>
-              <figcaption>Flip The Lip 4 Contest Website & Product</figcaption>
-            </figure>
-          </article>
-
-          <article className="project">
-            <h2 className="title">Destiny 2 + Rockstar Promotion</h2>
-            <p className="description">Tools: Facebook Apps, PHP, MySQL.</p>
-            <p className="description">
-              This contest offered daily sweepstakes for the chance to win a copy of Destiny 2 and other physical game
-              swag. Contestants entered via Facebook or the Circle K mobile app. Contest website and prize fulfillment
-              by SIX12 Creative.
-            </p>
-
-            <figure>
-              <img
-                src="/img/six12/destiny2-full_lowres.jpg"
-                data-src="/img/six12/destiny2-full.png"
-                className="lazyload blur image"
-                alt="Destiny 2 Rockstar Contest Banner"
-              />
-              <noscript>
-                <img src="/img/six12/destiny2-full.png" alt="Destiny 2 Rockstar Contest Banner" />
-              </noscript>
-              <figcaption>Destiny 2 Rockstar Contest Website</figcaption>
-            </figure>
-          </article>
-
-          <article className="project">
-            <h2 className="title">Vancity Plating</h2>
-            <p className="description">Tools: WordPress, PHP, MySQL.</p>
-            <p className="description">
-              <Link href="http://vancityplating.com/">
-                <a target="_blank">Vancity Plating</a>
-              </Link>{' '}
-              has over 30 years experience in the chrome plating industry.
-            </p>
-
-            <figure>
-              <img
-                src="/img/six12/vancityplating-gallery_lowres.jpg"
-                data-src="/img/six12/vancityplating-gallery.png"
-                className="lazyload blur image"
-                alt="Vancity Plating Gallery"
-              />
-              <noscript>
-                <img src="/img/six12/vancityplating-gallery.png" alt="Vancity Plating Gallery" />
-              </noscript>
-              <figcaption>Vancity Plating Instagram Gallery</figcaption>
-            </figure>
-          </article>
-
-          <article className="project">
-            <h2 className="title">AIMS</h2>
-            <p className="description">Tools: Drupal 7, PHP, MySQL.</p>
-            <p className="description">
-              AIMS is a web-based checklist and reporting system for health and safety regulations, in-store
-              merchandising, and other procedure checks. The system has expanded to thousands of convenience stores
-              across North America.
-            </p>
-            <p className="description">
-              This real time operations management tool is built with Drupal 7. It is designed for easy use on mobile
-              devices and tablets, and is fully customizable by client admins.
-            </p>
-
-            <figure>
-              <picture>
-                <source media="(max-width: 45rem)" srcSet="/img/six12/aims-zoom.png" />
-                <img
-                  src="/img/six12/aims_lowres.jpg"
-                  data-src="/img/six12/aims.jpg"
-                  className="lazyload blur image"
-                  alt="AIMS"
-                />
-              </picture>
-              <noscript>
-                <picture>
-                  <source media="(max-width: 45rem)" srcSet="/img/six12/aims-zoom.png" />
-                  <img src="/img/six12/aims.jpg" alt="AIMS" />
-                </picture>
-              </noscript>
-              <figcaption>AIMS Checklisting System</figcaption>
-            </figure>
-          </article>
+          {/* <article className="project">
+            <h2 className="title">Under construction</h2>
+          </article> */}
         </section>
       </main>
       <footer id="footer">&nbsp;</footer>
