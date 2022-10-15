@@ -1,6 +1,6 @@
 import Link from 'next/link'
 
-export default function () {
+export default function SFU() {
   return (
     <>
       <Link href="#content">
@@ -35,9 +35,9 @@ export default function () {
               <figcaption>An Hour With Mozilla</figcaption>
             </figure>
             <p className="description">
-              I wanted to host an event that would showcase a distinguished software engineer's beginnings in Computing
+              {`I wanted to host an event that would showcase a distinguished software engineer's beginnings in Computing
               Science. With the research assistance of my colleagues in the Computer Science Student Society, I was able
-              to arrange a keynote talk with a member of the Mozilla Firefox development team.
+              to arrange a keynote talk with a member of the Mozilla Firefox development team.`}
             </p>
             <p className="description">
               Dethe Elza spoke about his origins in software engineering, as well as his involvement in the development

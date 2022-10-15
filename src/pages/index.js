@@ -4,7 +4,7 @@ import Image from 'next/image'
 // Images
 import me from '../../public/img/me.jpg'
 
-export default function () {
+export default function Home() {
   return (
     <>
       <Link href="#content">
@@ -14,7 +14,7 @@ export default function () {
         <section id="intro">
           <h1 className="heading">Max Proske</h1>
           <p className="description">
-            I'm a{' '}
+            {`I'm`} a{' '}
             <Link href="#my-work">
               <a>team lead</a>
             </Link>{' '}
@@ -61,7 +61,7 @@ export default function () {
           <h1 className="header">About Me</h1>
           <figure className="portrait">
             <Image src={me} width={550} height={550} alt="Me" placeholder="blur" />
-            <figcaption>Hi, I'm Max!</figcaption>
+            <figcaption>{`Hi, I'm Max!`}</figcaption>
           </figure>
           <p className="description">I have a keen interest in building blazing fast React apps in Next.js.</p>
           <p className="description">
@@ -83,13 +83,13 @@ export default function () {
               <a>max@mproske.com</a>
             </Link>
           </p>
-          <p className="description">I'd love to chat about job opportunities or projects I’ve worked on.</p>
+          <p className="description">{`I'd love to chat about job opportunities or projects I’ve worked on.`}</p>
           <p className="description">
             For more information, please{' '}
             <Link href="/resume">
               <a>view my resume</a>
             </Link>
-            . I'm also active on{' '}
+            . {`I'm also active on`}{' '}
             <Link href="https://github.com/maxproske">
               <a target="_blank">GitHub</a>
             </Link>{' '}

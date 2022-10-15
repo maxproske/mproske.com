@@ -1,6 +1,6 @@
 import Link from 'next/link'
 
-export default function () {
+export default function IViz() {
   return (
     <>
       <Link href="#content">
@@ -28,9 +28,9 @@ export default function () {
               <Link href="https://www.sfu.ca">
                 <a target="_blank">Simon Fraser University</a>
               </Link>
-              , I proposed a solution that would improve scheduling, replace a very long e-mail chain, and eliminate the
+              {`, I proposed a solution that would improve scheduling, replace a very long e-mail chain, and eliminate the
               need to remote-in with TeamViewer. I designed a PHP web application, that could send any image processing
-              requests to iVizLab's rendering workstation.
+              requests to iVizLab's rendering workstation.`}
             </p>
 
             <figure className="preview">

@@ -1,6 +1,6 @@
 import Link from 'next/link'
 
-export default function () {
+export default function Projects() {
   return (
     <>
       <Link href="#content">
@@ -48,9 +48,9 @@ export default function () {
             <h2 className="title">Website Redesign</h2>
             <p className="description">Tools: PHP, HTML5, CSS3, JavaScript, MySQL, Golang.</p>
             <p className="description">
-              I'm currently working on a complete semantic rewrite from the ground up. The current design from 2009 is
+              {`I'm currently working on a complete semantic rewrite from the ground up. The current design from 2009 is
               not effective to navigate, and is barring new players from accessing our content. I am analyzing each
-              feature and determining what pages should be adapted or excluded.
+              feature and determining what pages should be adapted or excluded.`}
             </p>
 
             <div className="side-by-side">

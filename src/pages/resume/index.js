@@ -1,6 +1,6 @@
 import Link from 'next/link'
 
-export default function () {
+export default function Resume() {
   return (
     <>
       <Link href="#content">
