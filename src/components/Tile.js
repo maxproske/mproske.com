@@ -1,4 +1,4 @@
-export const Tile = ({ promotionName, year, size, color }) => {
+export const Tile = ({ promotionName }) => {
   return (
     <article
       className={`${
