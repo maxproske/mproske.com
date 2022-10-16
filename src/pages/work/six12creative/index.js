@@ -16,6 +16,7 @@ export default function SIX12() {
 
         <section id="work">
           <h1 className="header">SIX12 Creative</h1>
+
           <div className="awards">
             <div className="award">
               <div className="award-icon">

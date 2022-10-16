@@ -3,7 +3,8 @@
     "eslint:recommended",
     "next",
     "next/core-web-vitals",
-    "plugin:prettier/recommended" // Always last
+    "plugin:prettier/recommended",
+    "plugin:tailwindcss/recommended"
   ],
   "rules": {
     "react/react-in-jsx-scope": "off",
