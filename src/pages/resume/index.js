@@ -25,8 +25,8 @@ export default function Resume() {
             <h2 className="heading">Summary</h2>
             <p className="description">
               Team Lead and Full Stack Web Developer with a keen interest in building blazing fast web applications in
-              Next.js and React from start to finish. Strong leadership background at a full-service marketing agency
-              ranked in the Top 100 fastest-growing companies in BC in 2019, 2020 & 2021.
+              Next.js, React, and TypeScript from start to finish. Strong leadership background at a full-service
+              marketing agency ranked in the Top 100 fastest-growing companies in BC in 2019, 2020 & 2021.
             </p>
           </article>
 
@@ -73,7 +73,7 @@ export default function Resume() {
             <div className="resume-grid">
               <div id="six12creative" className="job">
                 <div className="row">
-                  <div className="date">2021-Present</div>
+                  <div className="date">2021 – Present</div>
                   <div className="position">
                     <Link href="/work/six12creative/">
                       <a>Development Team Lead</a>

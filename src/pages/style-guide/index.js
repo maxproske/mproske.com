@@ -239,7 +239,7 @@ export default function StyleGuide() {
               </pre>
               <h4>Rendered Element</h4>
               <section id="projects-education">
-                <div className="grid">
+                <div className="index-grid">
                   <Link href="/work/sfu">
                     <a className="link" id="sfu">
                       <article className="item">

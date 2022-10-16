@@ -465,6 +465,7 @@ figure {
 .description {
   font-size: 1.25rem;
   line-height: 1.8rem;
+  margin-bottom: 1rem;
 }
 
 /* Work
@@ -475,7 +476,7 @@ figure {
 }
 
 #work .project {
-  margin-top: 8rem;
+  margin-top: 4rem;
 }
 
 #work figure {
@@ -500,7 +501,7 @@ figure {
 /* Grids
    ========================================================================== */
 
-.grid {
+.index-grid {
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-auto-rows: 12rem;
@@ -508,7 +509,7 @@ figure {
   text-align: center;
 }
 
-.grid .item {
+.index-grid .item {
   display: flex;
   flex-wrap: wrap;
   justify-content: center; /* inline-axis */
@@ -516,65 +517,65 @@ figure {
   align-content: center;
 }
 
-.grid .title,
-.grid .logo,
-.grid .description {
+.index-grid .title,
+.index-grid .logo,
+.index-grid .description {
   flex: 1 100%;
   z-index: 10; /* Allow text to be selected */
 }
 
-.grid .description {
+.index-grid .description {
   max-width: 25rem;
   margin: 0 auto;
 }
-.grid .description .summary {
+.index-grid .description .summary {
   max-width: 20rem;
 }
 
-.grid .title {
+.index-grid .title {
   font-size: 2rem;
   margin-top: 0;
   margin-bottom: 2rem;
 }
 
-.grid .title a {
+.index-grid .title a {
   color: #fff;
   text-decoration: none;
 }
 
-.grid .title a:focus {
+.index-grid .title a:focus {
   text-decoration: underline;
 }
 
-.grid .logo {
+.index-grid .logo {
   margin-bottom: 2rem;
 }
 
-.grid .logo img {
+.index-grid .logo img {
   max-width: 6rem;
 }
 
-.grid .logo svg {
+.index-grid .logo svg {
   max-width: 11rem;
 }
 
-.grid .item {
+.index-grid .item {
   position: relative;
   overflow: hidden;
   height: 100%;
   padding: 2rem;
 }
 
-.grid .link {
+.index-grid .link {
   text-decoration: none;
   border: 0;
 }
 
-.grid .link:focus {
+.index-grid .link:focus {
   box-shadow: 0 0 1.5rem #33aaff;
 }
 
-.grid .background-image {
+.index-grid .background-image {
   position: absolute;
   top: 0;
   right: 0;
@@ -587,26 +588,26 @@ figure {
   transition: filter 0.2s, opacity 0.2s;
 }
 
-.grid .link:focus .background-image,
-.grid .item:hover .background-image {
+.index-grid .link:focus .background-image,
+.index-grid .item:hover .background-image {
   opacity: 0.4;
   filter: blur(0);
   transition: filter 0.2s, opacity 0.2s;
 }
 
 @media screen and (min-width: 38rem) {
-  .grid .title,
-  .grid .description {
+  .index-grid .title,
+  .index-grid .description {
     opacity: 1;
     position: relative;
     top: 0;
     transition: opacity 0.2s, top 0.2s;
   }
 
-  .grid .link:focus .title,
-  .grid .link:focus .description,
-  .grid .item:hover .title,
-  .grid .item:hover .description {
+  .index-grid .link:focus .title,
+  .index-grid .link:focus .description,
+  .index-grid .item:hover .title,
+  .index-grid .item:hover .description {
     opacity: 0;
     top: 1rem;
     transition: opacity 0.2s, top 0.2s;
@@ -659,9 +660,9 @@ figure {
 }
 
 #my-work #six12creative .background-image {
-  background: url("/img/six12.jpg");
+  background: url("/img/six12/rpp6b.jpg");
   background-size: cover;
-  background-position: bottom right;
+  background-position: center center;
   background-repeat: no-repeat;
 }
 
@@ -859,7 +860,7 @@ figure {
 
 #work .awards {
   display: flex;
-  margin: 2rem 0;
+  margin: 6rem 0 2rem 0;
   gap: 1rem;
 }
 
@@ -877,11 +878,16 @@ figure {
 #work .award-description {
   text-align: center;
   font-size: 1.25rem;
-  line-height: 1.8rem;
+  line-height: 1.5rem;
 }
 
 #work .award-description strong {
-  font-size: 1.4rem;
+  font-size: 1.25rem;
+}
+
+#work .award-description em {
+  font-size: 1rem;
+  margin-top: 0.5rem;
 }
 
 /* Resume
@@ -1019,18 +1025,18 @@ figure {
 }
 
 @media screen and (max-width: 38rem) {
-  .grid {
+  .index-grid {
     margin: 0 -2rem;
     grid-gap: 0;
   }
-  .grid .link {
+  .index-grid .link {
     grid-column: span 2 !important;
   }
-  .grid .background-image {
+  .index-grid .background-image {
     padding: 0 2rem;
   }
-  .grid .title,
-  .grid .description {
+  .index-grid .title,
+  .index-grid .description {
     opacity: 1;
   }
   #projects-education #flashflashrevolution {

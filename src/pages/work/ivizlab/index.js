@@ -37,7 +37,7 @@ export default function IViz() {
               <img
                 src="/img/ivizlab/gallery_lowres.jpg"
                 data-src="/img/ivizlab/gallery.png"
-                className="lazyload blur image"
+                className="lazyload image blur"
                 alt="Gallery page"
               />
               <noscript>
@@ -56,7 +56,7 @@ export default function IViz() {
               <img
                 src="/img/ivizlab/create_lowres.jpg"
                 data-src="/img/ivizlab/create.png"
-                className="lazyload blur image"
+                className="lazyload image blur"
                 alt="Selection screen"
               />
               <noscript>

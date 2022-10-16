@@ -34,7 +34,7 @@ export default function Home() {
 
         <section id="my-work">
           <h2 className="header">My Work</h2>
-          <div className="grid">
+          <div className="index-grid">
             <Link href="/work/six12creative/">
               <a className="link" id="six12creative">
                 <article className="item">
@@ -49,7 +49,7 @@ export default function Home() {
                       <rect x="335.05" y="178.57" width="111.67" height="21.34" />
                     </svg>
                   </div>
-                  <p className="description">SIX12 Creative, 2016-present.</p>
+                  <p className="description">SIX12 Creative, 2016 – Present</p>
                   <div className="background-image" />
                 </article>
               </a>
@@ -63,7 +63,9 @@ export default function Home() {
             <Image src={me} width={550} height={550} alt="Me" placeholder="blur" />
             <figcaption>{`Hi, I'm Max!`}</figcaption>
           </figure>
-          <p className="description">I have a keen interest in building blazing fast React apps in Next.js.</p>
+          <p className="description">
+            I have a keen interest in building blazing fast React apps in Next.js and TypeScript.
+          </p>
           <p className="description">
             I graduated from{' '}
             <Link href="https://www.sfu.ca">
@@ -103,7 +105,7 @@ export default function Home() {
 
         <section id="projects-education">
           <h2 className="header">Projects & Education</h2>
-          <div className="grid">
+          <div className="index-grid">
             <Link href="/projects/flashflashrevolution">
               <a className="link" id="flashflashrevolution">
                 <article className="item">
@@ -111,15 +113,22 @@ export default function Home() {
                   <div className="logo">
                     <img className="my-0 mx-auto" src="img/ffr-logo.png" alt="Flash Flash Revolution" />
                   </div>
-                  <p className="description">Flash Flash Revolution, 2012-present.</p>
+                  <p className="description">Flash Flash Revolution, 2012 – Present</p>
                   <div className="background-image" />
                 </article>
               </a>
             </Link>
-            <Link href="/projects/living-room-arcades">
-              <a className="link" id="lra">
+
+            <Link href="/work/sfu">
+              <a className="link" id="sfu">
                 <article className="item">
-                  <p className="description">Living Room Arcades, 2022.</p>
+                  <h3 className="title">First Year Computing Science Representative</h3>
+                  <div className="logo">
+                    <svg className="my-0 mx-auto" viewBox="0 16 108 40" fill="white">
+                      <path d="m77.07 35.77c-0.56 0.07-0.99 0.09-1.28 0.09s-0.72-0.04-1.3-0.11c0.09 0.86 0.11 1.17 0.13 1.87v2.27l0.02 5.36c0 2.14 0.07 2.59 0.58 3.44 0.32 0.52 0.77 0.99 1.33 1.37 1.06 0.74 2.21 1.01 4.3 1.01 1.96 0 3.17-0.29 4.25-1.06 1.58-1.1 1.91-2.09 1.91-5.74l-0.01-3.52c0-0.29 0.02-1.06 0.04-2.3 0-0.94 0.02-1.62 0.05-1.98 0.02-0.16 0.04-0.38 0.07-0.7-0.52 0.05-0.9 0.09-1.15 0.09s-0.63-0.04-1.12-0.09c0.09 0.79 0.13 1.1 0.16 1.78 0.07 0.9 0.09 1.98 0.09 3.17v3.51c0 2.47-0.07 3.02-0.54 3.71-0.18 0.25-0.49 0.52-0.9 0.76-0.76 0.47-1.6 0.65-2.72 0.65-1.6 0-3.08-0.59-3.65-1.42-0.45-0.68-0.47-0.95-0.5-3.29v-4.59c0-0.25 0.02-0.68 0.04-1.24 0-0.56 0.02-0.92 0.02-1.06 0.05-0.76 0.07-1.1 0.18-1.98m-6.12 2.18c-0.04-0.47-0.07-0.83-0.07-1.08 0-0.32 0.02-0.56 0.11-1.13-0.88 0.11-1.19 0.11-1.71 0.11h-2.3l-2.66-0.02-1.53-0.05c0.09 1.78 0.11 2.5 0.16 3.63v6.16c0 1.62-0.02 2.68-0.04 3.2-0.05 0.45-0.09 1.17-0.18 2.09 0.52-0.04 0.9-0.07 1.17-0.07 0.32 0 0.79 0.02 1.42 0.09-0.16-1.96-0.16-2.3-0.16-5v-1.91h2.37c0.94 0 1.53 0.05 2.95 0.23-0.04-0.47-0.07-0.83-0.07-1.08 0-0.29 0.02-0.56 0.12-1.15-1.22 0.18-1.64 0.2-2.68 0.2h-2.66v-3.58l0.02-0.9h2.41c0.61 0 1.58 0.04 2.39 0.14 0.2 0.04 0.51 0.06 0.94 0.12m-12.74 0.41c0.11-0.49 0.16-0.65 0.31-1.13 0.14-0.38 0.18-0.49 0.41-0.9-0.67-0.25-0.95-0.34-1.46-0.45-0.72-0.16-1.42-0.25-2.16-0.25-1.6 0-2.68 0.38-3.53 1.24-0.76 0.76-1.22 1.85-1.22 2.99 0 1.33 0.49 2.3 1.55 3.04 0.54 0.38 0.97 0.61 2.12 1.13 1.17 0.54 1.51 0.7 2.02 1.06 0.79 0.54 1.17 1.17 1.17 1.91 0 1.53-1.24 2.57-3.04 2.57-0.79 0-1.6-0.18-2.34-0.56-0.52-0.25-0.83-0.47-1.55-1.08-0.18 1.06-0.27 1.37-0.68 2.25 1.06 0.52 1.49 0.65 2.59 0.81 0.56 0.09 1.04 0.13 1.51 0.13 2.03 0 3.53-0.65 4.5-1.91 0.65-0.88 0.97-1.78 0.97-2.74 0-0.72-0.18-1.44-0.52-1.96-0.43-0.68-1.08-1.17-2.59-1.91-2.11-1.06-2.43-1.22-2.93-1.6-0.56-0.45-0.88-1.06-0.88-1.73 0-1.31 0.92-2.16 2.32-2.16 0.38 0 0.97 0.11 1.44 0.25 0.75 0.24 1.14 0.42 1.99 1m31.81 15.49h-72v-36h72v36z" />
+                    </svg>
+                  </div>
+                  <p className="description">Simon Fraser University, 2013 – 2014</p>
                   <div className="background-image" />
                 </article>
               </a>
@@ -132,21 +141,7 @@ export default function Home() {
                   <div className="logo">
                     <img className="my-0 mx-auto" src="img/ivizlab-logo.png" alt="iVizLab" />
                   </div>
-                  <p className="description">iVizLab, 2016.</p>
-                  <div className="background-image" />
-                </article>
-              </a>
-            </Link>
-            <Link href="/work/sfu">
-              <a className="link" id="sfu">
-                <article className="item">
-                  <h3 className="title">First Year Computing Science Representative</h3>
-                  <div className="logo">
-                    <svg className="my-0 mx-auto" viewBox="0 16 108 40" fill="white">
-                      <path d="m77.07 35.77c-0.56 0.07-0.99 0.09-1.28 0.09s-0.72-0.04-1.3-0.11c0.09 0.86 0.11 1.17 0.13 1.87v2.27l0.02 5.36c0 2.14 0.07 2.59 0.58 3.44 0.32 0.52 0.77 0.99 1.33 1.37 1.06 0.74 2.21 1.01 4.3 1.01 1.96 0 3.17-0.29 4.25-1.06 1.58-1.1 1.91-2.09 1.91-5.74l-0.01-3.52c0-0.29 0.02-1.06 0.04-2.3 0-0.94 0.02-1.62 0.05-1.98 0.02-0.16 0.04-0.38 0.07-0.7-0.52 0.05-0.9 0.09-1.15 0.09s-0.63-0.04-1.12-0.09c0.09 0.79 0.13 1.1 0.16 1.78 0.07 0.9 0.09 1.98 0.09 3.17v3.51c0 2.47-0.07 3.02-0.54 3.71-0.18 0.25-0.49 0.52-0.9 0.76-0.76 0.47-1.6 0.65-2.72 0.65-1.6 0-3.08-0.59-3.65-1.42-0.45-0.68-0.47-0.95-0.5-3.29v-4.59c0-0.25 0.02-0.68 0.04-1.24 0-0.56 0.02-0.92 0.02-1.06 0.05-0.76 0.07-1.1 0.18-1.98m-6.12 2.18c-0.04-0.47-0.07-0.83-0.07-1.08 0-0.32 0.02-0.56 0.11-1.13-0.88 0.11-1.19 0.11-1.71 0.11h-2.3l-2.66-0.02-1.53-0.05c0.09 1.78 0.11 2.5 0.16 3.63v6.16c0 1.62-0.02 2.68-0.04 3.2-0.05 0.45-0.09 1.17-0.18 2.09 0.52-0.04 0.9-0.07 1.17-0.07 0.32 0 0.79 0.02 1.42 0.09-0.16-1.96-0.16-2.3-0.16-5v-1.91h2.37c0.94 0 1.53 0.05 2.95 0.23-0.04-0.47-0.07-0.83-0.07-1.08 0-0.29 0.02-0.56 0.12-1.15-1.22 0.18-1.64 0.2-2.68 0.2h-2.66v-3.58l0.02-0.9h2.41c0.61 0 1.58 0.04 2.39 0.14 0.2 0.04 0.51 0.06 0.94 0.12m-12.74 0.41c0.11-0.49 0.16-0.65 0.31-1.13 0.14-0.38 0.18-0.49 0.41-0.9-0.67-0.25-0.95-0.34-1.46-0.45-0.72-0.16-1.42-0.25-2.16-0.25-1.6 0-2.68 0.38-3.53 1.24-0.76 0.76-1.22 1.85-1.22 2.99 0 1.33 0.49 2.3 1.55 3.04 0.54 0.38 0.97 0.61 2.12 1.13 1.17 0.54 1.51 0.7 2.02 1.06 0.79 0.54 1.17 1.17 1.17 1.91 0 1.53-1.24 2.57-3.04 2.57-0.79 0-1.6-0.18-2.34-0.56-0.52-0.25-0.83-0.47-1.55-1.08-0.18 1.06-0.27 1.37-0.68 2.25 1.06 0.52 1.49 0.65 2.59 0.81 0.56 0.09 1.04 0.13 1.51 0.13 2.03 0 3.53-0.65 4.5-1.91 0.65-0.88 0.97-1.78 0.97-2.74 0-0.72-0.18-1.44-0.52-1.96-0.43-0.68-1.08-1.17-2.59-1.91-2.11-1.06-2.43-1.22-2.93-1.6-0.56-0.45-0.88-1.06-0.88-1.73 0-1.31 0.92-2.16 2.32-2.16 0.38 0 0.97 0.11 1.44 0.25 0.75 0.24 1.14 0.42 1.99 1m31.81 15.49h-72v-36h72v36z" />
-                    </svg>
-                  </div>
-                  <p className="description">Simon Fraser University, 2013-2014.</p>
+                  <p className="description">iVizLab, 2016</p>
                   <div className="background-image" />
                 </article>
               </a>
