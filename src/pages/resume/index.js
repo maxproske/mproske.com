@@ -26,7 +26,7 @@ export default function Resume() {
             <p className="description">
               Team Lead and Full Stack Web Developer with a keen interest in building blazing fast web applications in
               Next.js, React, and TypeScript from start to finish. Strong leadership background at a full-service
-              marketing agency ranked in the Top 100 fastest-growing companies in BC in 2019, 2020 & 2021.
+              marketing agency ranked in the Top 100 fastest-growing companies in BC in 2019, 2020, 2021 & 2022.
             </p>
           </article>
 

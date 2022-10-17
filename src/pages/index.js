@@ -67,7 +67,7 @@ export default function Home() {
             I have a keen interest in building blazing fast React apps in Next.js and TypeScript.
           </p>
           <p className="description">
-            I graduated from{' '}
+            I studied Computer Science, and graduated from{' '}
             <Link href="https://www.sfu.ca">
               <a target="_blank">Simon Fraser University</a>
             </Link>{' '}

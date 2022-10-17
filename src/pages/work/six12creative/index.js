@@ -22,19 +22,19 @@ export default function SIX12() {
             <p className="description">
               In my capacity as <strong>Team Lead</strong> and <strong>Full Stack Web Developer</strong>, I have led the
               development and launch of over 80 major projects. Through having hired promising talent and mentored using
-              a <em>senior growth mindset</em>, I have quickly produced and retained several top contributors.
+              a <em>senior growth mindset</em>, I have quickly produced and retained top contributors.
             </p>
 
             <p className="description">
               As a member of the <strong>Senior Leadership Team</strong>, I have been incredibly successful in
-              advocating for business decisions backed by emerging technologies, such as SMS shortcodebased reward
+              advocating for business decisions backed by emerging technologies, such as SMS shortcode-based reward
               programs, that has influenced the company to reinvent itself and drive extraordinary growth.
             </p>
 
-            <div className="awards">
+            <div className="awards flex-row flex-wrap sm:flex-nowrap">
               <div className="award">
                 <div className="award-icon">
-                  <Image src="/img/icons/icons8-laurel-wreath-90.png" width="90" height="90" alt="Award" />
+                  <Image src="/img/icons/icons8-laurel-wreath-96-fast.png" width="96" height="96" alt="Award" />
                 </div>
                 <div className="award-description">
                   <strong>
@@ -47,7 +47,7 @@ export default function SIX12() {
               </div>
               <div className="award">
                 <div className="award-icon">
-                  <Image src="/img/icons/icons8-laurel-wreath-90.png" width="90" height="90" alt="Award" />
+                  <Image src="/img/icons/icons8-laurel-wreath-96-fast.png" width="96" height="96" alt="Award" />
                 </div>
                 <div className="award-description">
                   <strong>
@@ -60,7 +60,7 @@ export default function SIX12() {
               </div>
               <div className="award">
                 <div className="award-icon">
-                  <Image src="/img/icons/icons8-laurel-wreath-90.png" width="90" height="90" alt="Award" />
+                  <Image src="/img/icons/icons8-laurel-wreath-96-fast.png" width="96" height="96" alt="Award" />
                 </div>
                 <div className="award-description">
                   <strong>
@@ -73,7 +73,7 @@ export default function SIX12() {
               </div>
               <div className="award">
                 <div className="award-icon">
-                  <Image src="/img/icons/icons8-laurel-wreath-90.png" width="90" height="90" alt="Award" />
+                  <Image src="/img/icons/icons8-laurel-wreath-96-profit.png" width="96" height="96" alt="Award" />
                 </div>
                 <div className="award-description">
                   <strong>
@@ -86,7 +86,7 @@ export default function SIX12() {
               </div>
               <div className="award">
                 <div className="award-icon">
-                  <Image src="/img/icons/icons8-laurel-wreath-90.png" width="90" height="90" alt="Award" />
+                  <Image src="/img/icons/icons8-laurel-wreath-96-fast.png" width="96" height="96" alt="Award" />
                 </div>
                 <div className="award-description">
                   <strong>
@@ -116,17 +116,39 @@ export default function SIX12() {
             </p>
 
             <p className="description">
-              <strong>Key clients:</strong> Coca-Cola, Pepsi, Nestlé, Unilever, Mondelēz, Hershey, Bungie, Ubisoft,
-              GURU, Red Bull, Monster Energy, FIFA, NHL, NFL, NBA.
+              <strong>Vendors:</strong> Coca-Cola, Pepsi, Nestlé, Unilever, Mondelēz, Hershey, Bungie, Ubisoft, GURU,
+              Red Bull, Monster Energy, FIFA, NHL, NFL, NBA.
             </p>
 
-            <h2 className="m-0 mt-16 pb-4 pt-8 text-[3.5rem] font-black ">Key Projects</h2>
-            <p className="mb-4 text-2xl">Coming Soon...</p>
-            <div className="grid auto-rows-[12rem] grid-cols-2 gap-4 text-center">
-              <Tile promotionName="Rock Paper Prizes" color="red" />
-              <Tile promotionName="Fuel Runner" color="red" />
-              <Tile promotionName="31 Days of Circle K" color="red" />
-              <Tile promotionName="Drink Snack Score" color="red" />
+            <h2 className="m-0 mt-16 pb-4 pt-8 text-5xl font-black" id="projects">
+              Key Projects
+            </h2>
+
+            <div className="grid grid-cols-2 gap-4 text-center">
+              <Tile
+                promotionName="Rock Paper Prizes"
+                imgSrc={`/img/six12/circlekgames-RPP6B-contest-open.png`}
+                technologies={['Next.js', 'AR.js', 'Styled Components']}
+                href="/work/six12creative/rock-paper-prizes"
+              />
+              <Tile
+                promotionName="Fuel Runner"
+                imgSrc={`/img/six12/fc_EN-FuelRunner-ckgames-open.png`}
+                technologies={['Next.js', 'Three.js']}
+                href="/work/six12creative/fuel-runner"
+              />
+              <Tile
+                promotionName="31 Days of Circle K"
+                imgSrc={`/img/six12/circlekgames-31dock-open.png`}
+                technologies={['Next.js', 'Framer Motion']}
+                href="/work/six12creative/31-days"
+              />
+              <Tile
+                promotionName="Drink Snack Score"
+                imgSrc={`/img/six12/DSS2-circlekgames-open.png`}
+                technologies={['Next.js', 'Three.js']}
+                href="/work/six12creative/drink-snack-score"
+              />
             </div>
           </div>
         </section>
