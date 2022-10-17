@@ -20,7 +20,7 @@ export default function RPP() {
             recorded Circle K employee, for chances to win thousands of daily instant prizes, to redeem in-store within
             10 days.
           </p> */}
-          <p className="description">FPO</p>
+          <p className="description">Coming Soon!</p>
         </section>
 
         <div className="back-to-top">

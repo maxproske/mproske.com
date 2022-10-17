@@ -15,7 +15,7 @@ export default function DSS() {
 
         <section id="work">
           <h1 className="header">Drink Snack Score</h1>
-          <p className="description">FPO</p>
+          <p className="description">Coming Soon!</p>
         </section>
 
         <div className="back-to-top">

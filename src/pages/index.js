@@ -63,11 +63,9 @@ export default function Home() {
             <Image src={me} width={550} height={550} alt="Me" placeholder="blur" />
             <figcaption>{`Hi, I'm Max!`}</figcaption>
           </figure>
+          <p className="description">I have a keen interest in building blazing fast React apps in Next.js.</p>
           <p className="description">
-            I have a keen interest in building blazing fast React apps in Next.js and TypeScript.
-          </p>
-          <p className="description">
-            I studied Computer Science, and graduated from{' '}
+            I graduated from{' '}
             <Link href="https://www.sfu.ca">
               <a target="_blank">Simon Fraser University</a>
             </Link>{' '}
@@ -103,7 +101,7 @@ export default function Home() {
           </p>
         </section>
 
-        <section id="projects-education">
+        {/* <section id="projects-education">
           <h2 className="header">Projects & Education</h2>
           <div className="index-grid">
             <Link href="/projects/flashflashrevolution">
@@ -147,16 +145,11 @@ export default function Home() {
               </a>
             </Link>
           </div>
-        </section>
+        </section> */}
 
         <div className="back-to-top">
           <Link href="#">
             <a>Back to top</a>
-          </Link>
-        </div>
-        <div className="go-back">
-          <Link href="/#my-work">
-            <a>Go back</a>
           </Link>
         </div>
       </main>

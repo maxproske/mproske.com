@@ -15,7 +15,7 @@ export default function Days31() {
 
         <section id="work">
           <h1 className="header">31 Days of Circle K</h1>
-          <p className="description">FPO</p>
+          <p className="description">Coming Soon!</p>
         </section>
 
         <div className="back-to-top">
