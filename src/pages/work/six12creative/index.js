@@ -124,7 +124,7 @@ export default function SIX12() {
               Key Projects
             </h2>
 
-            <div className="grid grid-cols-2 gap-4 text-center">
+            <div className="grid grid-cols-3 gap-4 text-center">
               <Tile
                 promotionName="Rock Paper Prizes"
                 imgSrc={`/img/six12/circlekgames-RPP6B-contest-open.png`}
@@ -143,12 +143,12 @@ export default function SIX12() {
                 technologies={['Next.js', 'Framer Motion']}
                 href="/work/six12creative/31-days"
               />
-              <Tile
+              {/* <Tile
                 promotionName="Drink Snack Score"
                 imgSrc={`/img/six12/DSS2-circlekgames-open.png`}
                 technologies={['Next.js', 'Three.js']}
                 href="/work/six12creative/drink-snack-score"
-              />
+              /> */}
             </div>
           </div>
         </section>
