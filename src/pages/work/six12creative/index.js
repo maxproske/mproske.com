@@ -21,14 +21,14 @@ export default function SIX12() {
           <div className="project">
             <p className="description">
               In my capacity as <strong>Team Lead</strong> and <strong>Full Stack Web Developer</strong>, I have led the
-              development and launch of over 80 major projects. Through having hired promising talent and mentored using
-              a <em>senior growth mindset</em>, I have quickly produced and retained top contributors.
+              development of over 80 major projects from start to finish. Through having hired promising talent and
+              mentored using a <em>senior growth mindset</em>, I have quickly produced and retained top contributors.
             </p>
 
             <p className="description">
-              As a member of the <strong>Senior Leadership Team</strong>, I have been incredibly successful in
-              advocating for business decisions backed by emerging technologies, such as SMS shortcode-based reward
-              programs, that has influenced the company to reinvent itself and drive extraordinary growth.
+              As a member of the <strong>Senior Leadership Team</strong>, I have advocated for business decisions backed
+              by emerging web technologies, such as SMS shortcode messaging reward programs. These decisions have
+              influenced the company to reinvent itself and drive extraordinary growth.
             </p>
 
             <div className="awards flex-row flex-wrap sm:flex-nowrap">
