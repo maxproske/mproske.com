@@ -16,11 +16,11 @@ export default function Home() {
           <p className="description">
             {`I'm`} a{' '}
             <Link href="#my-work">
-              <a>team lead</a>
+              <a>Development Team Lead</a>
             </Link>{' '}
             and{' '}
-            <Link href="#my-work">
-              <a>full stack web developer</a>
+            <Link href="https://www.docker.com/captains/max-proske">
+              <a>Docker Captain</a>
             </Link>{' '}
             based in Vancouver, Canada.
           </p>
