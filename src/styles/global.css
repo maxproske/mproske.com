@@ -858,34 +858,34 @@ figure {
   margin: 0;
 }
 
-#work .awards {
+.awards {
   display: flex;
   margin: 6rem 0 3rem 0;
   gap: 1rem;
 }
 
-#work .award {
+.award {
   display: flex;
   flex-flow: row wrap;
   justify-content: center;
 }
 
-#work .award-icon {
+.award-icon {
   max-width: 4rem;
   height: auto;
 }
 
-#work .award-description {
+.award-description {
   text-align: center;
   font-size: 1.25rem;
   line-height: 1.5rem;
 }
 
-#work .award-description strong {
+.award-description strong {
   font-size: 1.25rem;
 }
 
-#work .award-description em {
+.award-description em {
   font-size: 1rem;
   margin-top: 0.5rem;
 }
