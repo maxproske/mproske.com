@@ -465,6 +465,7 @@ figure {
 .description {
   font-size: 1.25rem;
   line-height: 1.8rem;
+  margin: revert;
   margin-bottom: 1rem;
 }
 
@@ -858,34 +859,34 @@ figure {
   margin: 0;
 }
 
-#work .awards {
+.awards {
   display: flex;
   margin: 6rem 0 3rem 0;
   gap: 1rem;
 }
 
-#work .award {
+.award {
   display: flex;
   flex-flow: row wrap;
   justify-content: center;
 }
 
-#work .award-icon {
+.award-icon {
   max-width: 4rem;
   height: auto;
 }
 
-#work .award-description {
+.award-description {
   text-align: center;
   font-size: 1.25rem;
   line-height: 1.5rem;
 }
 
-#work .award-description strong {
+.award-description strong {
   font-size: 1.25rem;
 }
 
-#work .award-description em {
+.award-description em {
   font-size: 1rem;
   margin-top: 0.5rem;
 }
@@ -918,10 +919,11 @@ figure {
 #resume .list-heading {
   font-size: 1.25rem;
   font-weight: 900;
-}
-
-#resume .list .description {
-  line-height: 2.5rem;
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
 }
 
 #resume .resume-grid {
@@ -977,6 +979,16 @@ figure {
 #resume .row .location {
   grid-column: span 3;
   text-align: right;
+}
+
+#resume ul {
+  display: block;
+  list-style-type: disc;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  padding-inline-start: 40px;
 }
 
 @media screen and (max-width: 50rem) {
