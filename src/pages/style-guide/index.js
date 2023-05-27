@@ -8,7 +8,7 @@ export default function StyleGuide() {
     <main id="content" className="content">
       <div className="go-back">
         <Link href="/#">
-          Go back
+          « Go back
         </Link>
       </div>
 
@@ -268,7 +268,7 @@ export default function StyleGuide() {
       </div>
       <div className="go-back">
         <Link href="/#my-work">
-          Go back
+          « Go back
         </Link>
       </div>
     </main>

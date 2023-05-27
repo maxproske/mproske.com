@@ -8,7 +8,7 @@ export default function Resume() {
     <main id="content" className="content">
       <div className="go-back">
         <Link href="/#contact">
-          Go back
+          « Go back
         </Link>
       </div>
       <p className="description">
@@ -21,59 +21,21 @@ export default function Resume() {
         <h1 id="name">Max Proske</h1>
 
         <article id="summary" className="section">
-          <h2 className="heading">Summary</h2>
+          <h2 className="heading">Professional Statement</h2>
           <p className="description">
-          As a Docker Captain, I am a recognized software industry leader. I lead with a relentless drive to continuously learn and foster growth within my teams. I have successfully steered my company through reinventions every 2 years, transforming our business model from brochure web design to a full-service software agency. As a result, I am a Director of a Top 100 Fastest-Growing and Top 100 Most Profitable business in BC.
+          As a <Link href="https://www.docker.com/captains/max-proske" target="_blank">Docker Captain</Link>, I am a recognized software industry leader. I lead with a relentless drive to continuously learn and foster growth within my teams. I have successfully steered my company through reinventions every 2 years, transforming our business model from brochure web design to a full-service software agency. As a result, I am a Director of a Top 100 Fastest-Growing and Top 100 Most Profitable business in BC.
           </p>
         </article>
 
-        <article id="key-skills-profile" className="section">
-          <h2 className="heading">Key Skills Profile</h2>
-          <h3 className="list-heading">Core Skills Complement:</h3>
-          <ul className="list">
-            <li className="description">
-              Strong understanding of hybrid static and server-side rendering frameworks
-            </li>
-            <li className="description">
-              Experienced in configuring Docker microservices, load balancers, and managed databases
-            </li>
-            <li className="description">Skilled at writing concise documentation and estimates</li>
-            <li className="description">
-              Fluent translating between developer and business speak, written and verbal
-            </li>
-            <li className="description">Project management tool power user</li>
-          </ul>
-          <h3 className="list-heading">Personal Skills:</h3>
-          <ul className="list">
-            <li className="description">
-              Self-motivated team player with strong communication and interpersonal skills
-            </li>
-            <li className="description">Capable, confident and personable demeanour</li>
-            <li className="description">Eager to quickly and continuously learn and grow</li>
-          </ul>
-        </article>
-
-        <article id="education" className="section">
-          <h2 className="heading">Education</h2>
-          <div className="resume-grid">
-            <div id="siat" className="row">
-              <div className="date">2013 – 2018</div>
-              <div className="position">Bachelor of Science in Interactive Systems</div>
-              <div className="place">Simon Fraser University</div>
-              <div className="location">Burnaby, BC</div>
-            </div>
-          </div>
-        </article>
-
         <article id="employment" className="section">
-          <h2 className="heading">Employment</h2>
+          <h2 className="heading">Work Experience</h2>
           <div className="resume-grid">
             <div id="six12creative" className="job">
-              <div className="row">
-                <div className="date">2021 – Present</div>
+            <div className="row">
+                <div className="date">2023 – Present</div>
                 <div className="position">
                   <Link href="/work/six12creative/">
-                    Development Team Lead
+                    Director, Development
                   </Link>
                 </div>
                 <div className="place">SIX12 Creative</div>
@@ -82,18 +44,37 @@ export default function Resume() {
               <div className="line">
                 <ul className="list">
                   <li className="description">
-                    Led the development of over 40 major gamification projects, aimed at driving foot traffic to brick
-                    and mortar convenience store locations across North America
+                  Pioneered innovative online gamification and loyalty programs as the director of a diverse team of marketing, engineering, and design specialists.
                   </li>
                   <li className="description">
-                    Onboarded and mentored high-potential developers with extremely low turnover
+                  Successfully executed over 100 major initiatives, less than half on the cookie-cutter side.
+                  </li>
+                </ul>
+              </div>
+              <div className="row">
+                <div className="date">2021 – 2023</div>
+                <div className="position">
+                  <Link href="/work/six12creative/">
+                    Team Lead, Development
+                  </Link>
+                </div>
+                <div className="place">SIX12 Creative</div>
+                <div className="location">New Westminster, BC</div>
+              </div>
+              <div className="line">
+                <ul className="list">
+                  <li className="description">
+                  Shaped a culture of psychological safety and autonomy within my team, by continuously defining behavior norms.
+                  </li>
+                  <li className="description">
+                  Created robust career development plans aimed at fostering swift internal progression and maintaining high retention rates.
                   </li>
                 </ul>
               </div>
             </div>
             <div id="six12creative" className="job">
               <div className="row">
-                <div className="date">2016-2021</div>
+                <div className="date">2016 – 2021</div>
                 <div className="position">
                   <Link href="/work/six12creative/">
                     Full Stack Web Developer
@@ -105,43 +86,15 @@ export default function Resume() {
               <div className="line">
                 <ul className="list">
                   <li className="description">
-                    Built robust and secure REST APIs for high volume shortcode services (100,000 SMS/day)
+                  Championed new frameworks and tools, significantly widening our scope of services, technological capabilities, and processes, resulting in 240% 5-year revenue growth.
                   </li>
                   <li className="description">
-                    Responsible for upholding information security policies, remediated third-party pen testing
-                  </li>
-                  <li className="description">
-                    Championed new frameworks and tools that significantly improved internal workflows
+                  Developed a secure, high-volume SMS shortcode service from scratch, now responsible for managing between 100k-1m inbound and outbound messages daily.
                   </li>
                 </ul>
               </div>
             </div>
-            <div id="flashflashrevolution" className="job">
-              <div className="row">
-                <div className="date">2012-Present</div>
-                <div className="position">
-                  <Link href="/projects/flashflashrevolution">
-                    Administrator, Open Source Maintainer
-                  </Link>
-                </div>
-                <div className="place">Flash Flash Revolution</div>
-                <div className="location">flashflashrevolution.com</div>
-              </div>
-              <div className="line">
-                <ul className="list">
-                  <li className="description">
-                    Leadership of an online multiplayer game with 1,000 daily active players
-                  </li>
-                  <li className="description">
-                    Continuously developing site and game features to improve overall user experience
-                  </li>
-                  <li className="description">
-                    Review pull requests and build releases for the open source game engine
-                  </li>
-                </ul>
-              </div>
-            </div>
-            <div id="ivizlab" className="job">
+            {/* <div id="ivizlab" className="job">
               <div className="row">
                 <div className="date">2016</div>
                 <div className="position">
@@ -198,8 +151,83 @@ export default function Resume() {
                   </li>
                 </ul>
               </div>
+            </div> */}
+          </div>
+        </article>
+
+        <article id="education" className="section">
+          <h2 className="heading">Education</h2>
+          <div className="resume-grid">
+            <div id="siat" className="row">
+              <div className="date">2013 – 2018</div>
+              <div className="position">B.Sc., Interactive Systems</div>
+              <div className="place">Simon Fraser University</div>
+              <div className="location">Burnaby, BC</div>
             </div>
           </div>
+        </article>
+
+        <article id="volunteering-and-awards" className="section">
+          <h2 className="heading">Volunteering & Awards</h2>
+          <div className="resume-grid">
+          <div id="docker" className="job">
+              <div className="row">
+                <div className="date">2023 – Present</div>
+                <div className="position">
+                  <Link href="https://www.docker.com/captains/max-proske" target="_blank">
+                  Docker Captain
+                  </Link>
+                </div>
+                <div className="place">Docker</div>
+                <div className="location">docker.com</div>
+              </div>
+              <div className="line">
+                <ul className="list">
+                  <li className="description">
+                  An industry-recognized distinction, awarded to experts who are passionate about sharing their knowledge of containers. Second recipient of this award in Canada.
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div id="flashflashrevolution" className="job">
+              <div className="row">
+                <div className="date">2012 – Present</div>
+                <div className="position">
+                  <Link href="/projects/flashflashrevolution">
+                  Open Source Maintainer
+                  </Link>
+                </div>
+                <div className="place">Flash Flash Revolution</div>
+                <div className="location">flashflashrevolution.com</div>
+              </div>
+              <div className="line">
+                <ul className="list">
+                  <li className="description">
+                  10+ year leadership of a multiplayer game with 1,000 daily active users. Maintain the open source game engine, and release updates which improve player experience.
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </article>
+
+        <article id="key-skills-profile" className="section">
+          <h2 className="heading">Skills</h2>
+          <h3 className="list-heading">{' '}</h3>
+          <ul className="list">
+            <li className="description">
+            Proven track record of turning visions into detailed plans, and adept at executing within constraints.
+            </li>
+            <li className="description">
+            Fluent in translating between developer and business speak, written and verbal.
+            </li>
+            <li className="description">Skilled at writing concise documentation and estimates</li>
+            <li className="description">
+            Proficient in ensuring the security and information security protocols of applications and infrastructure.
+            </li>
+            <li className="description">Capable, confident and personable demeanor, with strong interpersonal skills. </li>
+            <li className="description">Eager to continuously learn and grow.</li>
+          </ul>
         </article>
       </section>
 
@@ -210,10 +238,10 @@ export default function Resume() {
       </div>
       <div className="go-back">
         <Link href="/#my-work">
-          Go back
+          « Go back
         </Link>
       </div>
     </main>
     <footer id="footer">&nbsp;</footer>
-  </>;
+  </>
 }

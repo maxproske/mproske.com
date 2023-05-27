@@ -465,6 +465,7 @@ figure {
 .description {
   font-size: 1.25rem;
   line-height: 1.8rem;
+  margin: revert;
   margin-bottom: 1rem;
 }
 
@@ -918,10 +919,11 @@ figure {
 #resume .list-heading {
   font-size: 1.25rem;
   font-weight: 900;
-}
-
-#resume .list .description {
-  line-height: 2.5rem;
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
 }
 
 #resume .resume-grid {
@@ -977,6 +979,16 @@ figure {
 #resume .row .location {
   grid-column: span 3;
   text-align: right;
+}
+
+#resume ul {
+  display: block;
+  list-style-type: disc;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  padding-inline-start: 40px;
 }
 
 @media screen and (max-width: 50rem) {

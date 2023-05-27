@@ -8,7 +8,7 @@ export default function RPP() {
     <main id="content" className="content">
       <div className="go-back">
         <Link href="/work/six12creative#projects">
-          Go back
+          « Go back
         </Link>
       </div>
 
@@ -29,7 +29,7 @@ export default function RPP() {
       </div>
       <div className="go-back">
         <Link href="/work/six12creative#projects">
-          Go back
+          « Go back
         </Link>
       </div>
     </main>

@@ -8,7 +8,7 @@ export default function Projects() {
     <main id="content" className="content">
       <div className="go-back">
         <Link href="/#projects-education">
-          Go back
+          « Go back
         </Link>
       </div>
 
@@ -134,7 +134,7 @@ export default function Projects() {
       </div>
       <div className="go-back">
         <Link href="/#my-work">
-          Go back
+          « Go back
         </Link>
       </div>
     </main>

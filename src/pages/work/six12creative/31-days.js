@@ -8,7 +8,7 @@ export default function Days31() {
     <main id="content" className="content">
       <div className="go-back">
         <Link href="/work/six12creative#projects">
-          Go back
+          « Go back
         </Link>
       </div>
 
@@ -24,7 +24,7 @@ export default function Days31() {
       </div>
       <div className="go-back">
         <Link href="/work/six12creative#projects">
-          Go back
+          « Go back
         </Link>
       </div>
     </main>

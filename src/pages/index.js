@@ -18,7 +18,7 @@ export default function Home() {
           <Link href="/work/six12creative/">
             Director, Development
           </Link>{' '}
-          and <Link href="https://www.docker.com/captains/max-proske">
+          and <Link href="https://www.docker.com/captains/max-proske" target="_blank">
             Docker Captain
           </Link>{' '} based in Vancouver, Canada.
         </p>

@@ -11,7 +11,7 @@ export default function SIX12() {
     <main id="content" className="content">
       <div className="go-back">
         <Link href="/#my-work">
-          Go back
+          « Go back
         </Link>
       </div>
 
@@ -19,40 +19,17 @@ export default function SIX12() {
         <h1 className="header">SIX12</h1>
 
         <div className="project">
+
           <p className="description">
-            In my capacity as <strong>Team Lead</strong> and <strong>Full Stack Web Developer</strong>, I have led the
-            development of over 80 major projects from start to finish. Through having hired promising talent and
-            mentored using a <em>senior growth mindset</em>, I have quickly produced and retained top contributors.
+          SIX12 delivers highly customized web-based solutions for well-known brands throughout North America. As a Director, I lead an agency of talented individuals who specialize in a full range of marketing, engineering, and design services. We combine great strategy, design, and technology to pioneer innovative online gamification and loyalty initiatives.
           </p>
 
           <p className="description">
-            As a member of the <strong>Senior Leadership Team</strong>, I have advocated for business decisions backed
-            by emerging web technologies, such as SMS shortcode messaging reward programs. These decisions have
-            influenced the company to reinvent itself and drive extraordinary growth.
-          </p>
-
-          {/* <Awards /> */}
-        
-
-          <p className="description">
-            <Link href="https://six12creative.com" target="_blank">
-              SIX12
-            </Link>{' '}
-            is a full service agency that primarily serves retail and convenience store chains, including{' '}
-            <Link href="https://www.circlek.com" target="_blank">
-              Circle K
-            </Link>{' '}
-            and{' '}
-            <Link href="https://www.couche-tard.com" target="_blank">
-              Couche-Tard
-            </Link>
-            , by driving foot traffic to brick and mortar locations across North America and Europe through web-based
-            contests and games.
+          By continuously defining behaviour norms, I prioritize a company culture that fosters trust and psychological safety, which are crucial components for innovation and growth. I've led a subculture within my development team that's centered around adopting a senior growth mindset, constantly challenging and empowering them to accelerate their career growth just as I have.
           </p>
 
           <p className="description">
-            <strong>Vendors:</strong> Coca-Cola, Pepsi, Nestlé, Unilever, Mondelēz, Hershey, Bungie, Ubisoft, GURU,
-            Red Bull, Monster Energy, FIFA, NHL, NFL, NBA.
+            <strong>Key Clients:</strong> Big Brother, Bungie, Circle K, Coca-Cola, Couche-Tard, FIFA, GURU, Hershey, Marvel, McDonald's, Mondelēz, Monster Energy, NBA, Nestlé, NFL, NHL, Pepsi, Red Bull, Ubisoft, and Unilever.
           </p>
 
           <h2 className="m-0 mt-16 pb-4 pt-8 text-5xl font-black" id="projects">
@@ -95,7 +72,7 @@ export default function SIX12() {
       </div>
       <div className="go-back">
         <Link href="/#my-work">
-          Go back
+          « Go back
         </Link>
       </div>
     </main>
