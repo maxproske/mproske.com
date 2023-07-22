@@ -60,7 +60,6 @@ export default function Home() {
             <Image src={me} width={550} height={550} alt="Me" placeholder="blur" />
             <figcaption>{`Hi, I'm Max!`}</figcaption>
           </figure>
-          <p className="description">I have a keen interest in engineering leadership.</p>
           <p className="description">
             I graduated from{' '}
             <Link href="https://www.sfu.ca" target="_blank">
@@ -69,7 +68,7 @@ export default function Home() {
             with a Bachelor of Science in Interactive Systems.
           </p>
           <p className="description">
-            My hobbies are mainly centered around In The Groove and creating personal Google Sheets.
+            My hobbies are mainly centered around playing In The Groove and creating personal Google Sheets.
           </p>
         </section>
 
