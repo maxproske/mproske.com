@@ -70,14 +70,6 @@ export default function Home() {
           <p className="description">
             My hobbies are mainly centered around playing In The Groove and creating personal Google Sheets.
           </p>
-        </section>
-
-        <section id="contact">
-          <h2 className="header">Contact</h2>
-          <p className="description">
-            <Link href="mailto:max@mproske.com">max@mproske.com</Link>
-          </p>
-          <p className="description">{`I'd love to chat about job opportunities or projects I’ve worked on.`}</p>
           <p className="description">
             For more information, please <Link href="/resume">view my resume</Link>. {`I'm also active on`}{' '}
             <Link href="https://github.com/maxproske" target="_blank">
@@ -89,6 +81,14 @@ export default function Home() {
             </Link>
             .
           </p>
+        </section>
+
+        <section id="contact">
+          <h2 className="header">Contact</h2>
+          <p className="description">
+            <Link href="mailto:max@mproske.com">max@mproske.com</Link>
+          </p>
+          <p className="description">{`I'd love to chat about job opportunities or projects I’ve worked on.`}</p>
         </section>
 
         {/* <section id="projects-education">
