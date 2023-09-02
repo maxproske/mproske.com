@@ -4,6 +4,92 @@ import { Tile } from '../../../components/Tile'
 import { Awards } from '../../../components/Awards'
 
 export default function SIX12() {
+  const tiles = [
+    '/img/six12/circlekgames-31dock-open.png',
+    '/img/six12/circlekgames-dss-open.png',
+    '/img/six12/circlekgames-klondike-open.png',
+    '/img/six12/circlekgames-RPP6A-open.png',
+    '/img/six12/circlekgames-RPP6B-contest-open-FR-CT.png',
+    '/img/six12/circlekgames-RPP6B-contest-open.png',
+    '/img/six12/circlekgames-RPP6fuel-open.png',
+    '/img/six12/ckn_Hockey-Game_747x830_Open.png',
+    '/img/six12/ct_en_FuelRunner-2_website-tiles_747x830_open.png',
+    '/img/six12/ct_en_WinFuel_website-tile_747x830_open.png',
+    '/img/six12/ct_fr_FuelRunner-2_website-tiles_747x830_open.png',
+    '/img/six12/ct_fr_WinFuel_website-tile_747x830_open (1).png',
+    '/img/six12/ct_fr_WinFuel_website-tile_747x830_open.png',
+    '/img/six12/DSS2-circlekgames-open.png',
+    '/img/six12/ec_31DOCK_website-tiles_747x830_open.png',
+    '/img/six12/ec_31DOCK-ckgames-open.png',
+    '/img/six12/ec_ck_Big_Brother_Contest_website-tiles_747x830_open.png',
+    '/img/six12/ec_ckgames-cokeFIFA-open.png',
+    '/img/six12/ec_DrPepper_website-tiles_747x830_open.png',
+    '/img/six12/ec_FFY_Contest_website-tiles_747x830_open.png',
+    '/img/six12/ec_FuelRunner-2_website-tiles_747x830_open.png',
+    '/img/six12/ec_FuelRunner-ckgames-open.png',
+    '/img/six12/ec_GURU_website-tiles_747x830_open.png',
+    '/img/six12/ec_MondelezXbox_website-tiles_747x830_open.png',
+    '/img/six12/ec_monster_website-tiles_747x830_open.png',
+    '/img/six12/ec_MonsterStreamer_website-tiles_747x830_open.png',
+    '/img/six12/ec_Pepsi_P12_UEFA_Contest_website-tiles_747x830_open.png',
+    '/img/six12/ec_PepsiContest-ckgames-open.png',
+    '/img/six12/en_Biosteel-747x830_open.png',
+    '/img/six12/en_ck_Coke-Creations_website-tiles_open_747x830.png',
+    '/img/six12/en_ck_coke-trivia_open-tiny.png',
+    '/img/six12/en_ck_coke-trivia_open.png',
+    '/img/six12/en_ck_Nestle_RoadTripContest_open_747x830.png',
+    '/img/six12/en_ck_Pepsi-NHL-UPC-Contest_webtiles_747x830_open.png',
+    '/img/six12/en_ck_RPP7_PartB_website-tiles_open_747x830_v2.png',
+    '/img/six12/en_ck_RPP7_website-tiles_open_747x830.png',
+    '/img/six12/en_ck_RPP7B_PeelCard_webtile_open_747x830.png',
+    '/img/six12/en_ck_WinFuel_website-tiles_open_747x830.png',
+    '/img/six12/en_ct_Coke-Creations_website-tiles_open_747x830.png',
+    '/img/six12/en_ct_coke-trivia_open-tiny.png',
+    '/img/six12/en_ct_coke-trivia_open.png',
+    '/img/six12/en_ct_Pepsi-NHL-UPC-Contest_webtiles_747x830_open.png',
+    '/img/six12/en_ct_RPP7_PartB_website-tiles_open_747x830_v2.png',
+    '/img/six12/en_ct_RPP7_website-tiles_open_747x830.png',
+    '/img/six12/en_ct_RPP7B_PeelCard_webtile_open_747x830.png',
+    '/img/six12/en_ct_WinFuel_website-tiles_open_747x830.png',
+    '/img/six12/en_OhHenry_website-tile_747x830_open_v2.png',
+    '/img/six12/en_qc_Biosteel-747x830_open.png',
+    '/img/six12/en_qc_Pepsi_P12_UEFA_Contest_website-tiles_747x830_open.png',
+    '/img/six12/en_WinFuel_website-tile_747x830_open.png',
+    '/img/six12/fc_ckgames-cokeFIFA-open.png',
+    '/img/six12/fc_EN-FuelRunner-ckgames-open.png',
+    '/img/six12/fc_FR-31DOCK-ckgames-open.png',
+    '/img/six12/fc_FR-FuelRunner-ckgames-open.png',
+    '/img/six12/fc_PepsiContest-ckgames-open.png',
+    '/img/six12/fr_ct_Coke-Creations_website-tiles_open_747x830.png',
+    '/img/six12/fr_ct_coke-trivia_open-tiny.png',
+    '/img/six12/fr_ct_Nestle_RoadTripContest_open_747x830.png',
+    '/img/six12/fr_ct_Pepsi-NHL-UPC-Contest_webtiles_747x830_open.png',
+    '/img/six12/fr_ct_RPP7_PartB_website-tiles_open_747x830_v2.png',
+    '/img/six12/fr_ct_RPP7_website-tiles_open_747x830.png',
+    '/img/six12/fr_ct_RPP7B_PeelCard_webtile_open_747x830.png',
+    '/img/six12/fr_ct_WinFuel_website-tiles_open_747x830.png',
+    '/img/six12/jeuxcouchetard-31dock-open.png',
+    '/img/six12/jeuxcouchetard-dss-open.png',
+    '/img/six12/jeuxcouchetard-RPP6A-open.png',
+    '/img/six12/jeuxcouchetard-RPP6fuel-open.png',
+    '/img/six12/mondelez-circlekgames-open.png',
+    '/img/six12/NBA-Hershey-circlekgames-open.png',
+    '/img/six12/NBA-Hershey-jeuxcouchetard-open.png',
+    '/img/six12/qc_31DOCK_website-tiles_747x830_open.png',
+    '/img/six12/qc_Biosteel-747x830_open.png',
+    '/img/six12/qc_ct_OhHenry_website-tile_747x830_open_v2.png',
+    '/img/six12/qc_DrPepper_website-tiles_747x830_open.png',
+    '/img/six12/qc_en_31DOCK-website-tiles_747x830_open.png',
+    '/img/six12/qc_en_MonsterStreamer_website-tiles_747x830_open.png',
+    '/img/six12/qc_monster_website-tiles_747x830_open.png',
+    '/img/six12/qc_MonsterStreamer_website-tiles_747x830_open.png',
+    '/img/six12/qc_Pepsi_P12_UEFA_Contest_website-tiles_747x830_open.png',
+    '/img/six12/RPP5-circlekgames-open.png',
+    '/img/six12/RPP5-jeuxcouchetard-open.png',
+    '/img/six12/RPP5B-circlekgames-open.png',
+    '/img/six12/RPP5B-jeuxcouchetard-open.png',
+  ]
+
   return (
     <>
       <Link href="#content" className="skip">
@@ -39,34 +125,21 @@ export default function SIX12() {
             </p>
 
             <h2 className="m-0 mt-16 pb-4 pt-8 text-5xl font-black" id="projects">
-              Key Projects
+              Projects
             </h2>
 
-            <div className="grid grid-cols-3 gap-4 text-center">
-              <Tile
-                promotionName=""
-                imgSrc={`/img/six12/circlekgames-RPP6B-contest-open.png`}
-                technologies={[]}
-                href="/work/six12creative/rock-paper-prizes"
-              />
-              <Tile
-                promotionName=""
-                imgSrc={`/img/six12/fc_EN-FuelRunner-ckgames-open.png`}
-                technologies={[]}
-                href="/work/six12creative/fuel-runner"
-              />
-              <Tile
-                promotionName=""
-                imgSrc={`/img/six12/circlekgames-31dock-open.png`}
-                technologies={[]}
-                href="/work/six12creative/31-days"
-              />
-              {/* <Tile
-              promotionName=""
-              imgSrc={`/img/six12/DSS2-circlekgames-open.png`}
-              technologies={[]}
-              href="/work/six12creative/drink-snack-score"
-            /> */}
+            <div className="grid grid-cols-5 gap-4 text-center">
+              {tiles
+                .sort(() => Math.random() - Math.random())
+                .map((tile, index) => (
+                  <Tile
+                    key={index}
+                    promotionName=""
+                    imgSrc={tile}
+                    technologies={[]}
+                    href="/work/six12creative/fuel-runner"
+                  />
+                ))}
             </div>
           </div>
         </section>

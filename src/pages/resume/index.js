@@ -40,7 +40,7 @@ export default function Resume() {
                 <div className="row">
                   <div className="date">2023 – Present</div>
                   <div className="position">
-                    <Link href="/work/six12creative/">Director, Development</Link>
+                    <Link href="/work/six12creative/">Director, Software Engineering</Link>
                   </div>
                   <div className="place">SIX12 Creative</div>
                   <div className="location">New Westminster, BC</div>
@@ -59,7 +59,7 @@ export default function Resume() {
                 <div className="row">
                   <div className="date">2021 – 2023</div>
                   <div className="position">
-                    <Link href="/work/six12creative/">Team Lead, Development</Link>
+                    <Link href="/work/six12creative/">Team Lead, Software Engineering</Link>
                   </div>
                   <div className="place">SIX12 Creative</div>
                   <div className="location">New Westminster, BC</div>
