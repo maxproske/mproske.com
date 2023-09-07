@@ -15,7 +15,7 @@ export default function Home() {
         <section id="intro">
           <h1 className="heading">Max Proske</h1>
           <p className="description">
-            {`I'm`} a <Link href="/work/six12creative/">Director, Software Engineering</Link> and{' '}
+            {`I'm`} a <Link href="/work/six12creative/">Director, Software Development</Link> and{' '}
             <Link href="https://www.docker.com/captains/max-proske" target="_blank">
               Docker Captain
             </Link>{' '}
@@ -31,10 +31,11 @@ export default function Home() {
 
         <section id="my-work">
           <h2 className="header">My Work</h2>
+          <Awards />
           <div className="index-grid">
             <Link href="/work/six12creative/" className="link" id="six12creative">
               <article className="item">
-                <h3 className="title">Director, Software Engineering</h3>
+                <h3 className="title">Director, Software Development</h3>
                 <div className="logo">
                   <svg className="mx-auto my-0" viewBox="0 40 500 180" fill="white">
                     <path d="m104.94 200.88c-33.23 0-49.19-12.07-51.24-38.61-0.19-2.41-0.19-5.2 0-7.8l37.13-4.83c-0.37 3.9-0.37 7.8 0.19 11.14 1.49 9.84 5.75 16.34 16.34 16.34 9.84 0 14.67-5.2 14.67-15.41 0-12.99-2.23-17.82-19.12-25.25-4.46-1.11-8.54-3.16-13.18-4.64-24.32-7.61-33.97-18.01-33.97-38.61 0-24.32 15.41-37.5 47.89-37.5 31.56 0 43.63 16.89 46.41 37.31 0.19 1.11 0.37 2.41 0.56 3.71l-33.97 4.83c-0.19-1.49-0.56-10.95-1.11-12.44-1.67-5.2-5.01-10.02-13.18-10.02-9.1 0-13.18 4.64-13.18 12.62 0 9.1 3.34 13.55 18.93 18.56 3.53 1.11 7.61 2.97 10.95 4.27 26.17 9.47 37.5 19.49 37.5 42.51-0.02 28.6-13.2 43.82-51.62 43.82z" />
@@ -50,8 +51,6 @@ export default function Home() {
               </article>
             </Link>
           </div>
-
-          <Awards />
         </section>
 
         <section id="about">

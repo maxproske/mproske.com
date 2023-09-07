@@ -586,14 +586,18 @@ figure {
 
   opacity: 0.15;
   filter: blur(0.5rem);
-  transition: filter 0.2s, opacity 0.2s;
+  transition:
+    filter 0.2s,
+    opacity 0.2s;
 }
 
 .index-grid .link:focus .background-image,
 .index-grid .item:hover .background-image {
   opacity: 0.4;
   filter: blur(0);
-  transition: filter 0.2s, opacity 0.2s;
+  transition:
+    filter 0.2s,
+    opacity 0.2s;
 }
 
 @media screen and (min-width: 38rem) {
@@ -602,7 +606,9 @@ figure {
     opacity: 1;
     position: relative;
     top: 0;
-    transition: opacity 0.2s, top 0.2s;
+    transition:
+      opacity 0.2s,
+      top 0.2s;
   }
 
   .index-grid .link:focus .title,
@@ -611,7 +617,9 @@ figure {
   .index-grid .item:hover .description {
     opacity: 0;
     top: 1rem;
-    transition: opacity 0.2s, top 0.2s;
+    transition:
+      opacity 0.2s,
+      top 0.2s;
   }
 }
 
@@ -861,7 +869,7 @@ figure {
 
 .awards {
   display: flex;
-  margin: 1rem 0 3rem 0;
+  margin: 1rem 0 1rem 0;
   gap: 1rem;
 }
 
@@ -963,7 +971,7 @@ figure {
 }
 
 #resume .job .list {
-  margin-bottom: 2rem;
+  margin-bottom: 0rem;
 }
 
 #resume .row .date {
