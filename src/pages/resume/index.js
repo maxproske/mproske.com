@@ -12,7 +12,7 @@ export default function Resume() {
           <Link href="/#contact">« Go back</Link>
         </div>
         <p className="description">
-          <Link href="/static/MaxProskeResume.pdf" download>
+          <Link href="/static/PROSKE-Resume-2024_r8.pdf" download>
             Download resume as a PDF
           </Link>
         </p>
@@ -23,14 +23,10 @@ export default function Resume() {
           <article id="summary" className="section">
             <h2 className="heading">Professional Statement</h2>
             <p className="description">
-              As a{' '}
-              <Link href="https://www.docker.com/captains/max-proske" target="_blank">
-                Docker Captain
-              </Link>{' '}
-              with 7+ years of software development experience, I am a recognized technical leader. I have steered my
-              company through reinventions every two years, resulting in a dramatic expansion of our scope of services.
-              As a result, I am a Director of a full-service software agency that has been listed in the Top 100
-              Fastest-Growing Companies in BC for five consecutive years (2019 – 2023).
+              Highly technical and service-oriented leader, with 8 years of diverse experience building web-based
+              applications at scale. Have led teams through 3x business growth periods, by excelling at change
+              management, talent retention, and driving dramatic growth within myself and my team. Seeking a Software
+              Manager role to continue growing at a global, transformative, high growth company.
             </p>
             <Awards />
           </article>
@@ -42,7 +38,7 @@ export default function Resume() {
                 <div className="row">
                   <div className="date">2023 – Present</div>
                   <div className="position">
-                    <Link href="/work/six12creative/">Director, Software Development</Link>
+                    <Link href="/work/six12creative/">Director, Software Engineering</Link>
                   </div>
                   <div className="place">SIX12</div>
                   <div className="location">New Westminster, BC</div>
@@ -50,20 +46,23 @@ export default function Resume() {
                 <div className="line">
                   <ul className="list">
                     <li className="description">
-                      Pioneered over 100 major customer loyalty programs, less than half on the cookie-cutter side.
+                      Achieved operational autonomy within my distributed team, by establishing a strong culture of
+                      ownership, through leading by example and setting clear proactivity norms. Team size: 7.
                     </li>
-                    <li className="description">Grew revenue from $1 million in 2017 to $2.8 million in 2022.</li>
                     <li className="description">
-                      Key clients: Circle K, Couche-Tard, Big Brother, Bungie, Coca-Cola, FIFA, GURU, Hershey, Holiday
-                      Stationstores, Irving Oil, Marvel, McDonald's, Mondelēz, Monster Energy, NBA, Nestlé, NFL, NHL,
-                      Pepsi, Red Bull, Ubisoft, Unilever
+                      Enabled the execution of over 20 projects simultaneously, without sacrificing quality, through
+                      building effective cross-functional structures, and meticulously optimizing each project phase.
+                    </li>
+                    <li className="description">
+                      Ranked Top 20 Fastest-Growing Company in BC, by enabling the CEO to focus on business growth and
+                      external challenges, through taking responsibility for internal and technical strategy.
                     </li>
                   </ul>
                 </div>
                 <div className="row">
                   <div className="date">2021 – 2023</div>
                   <div className="position">
-                    <Link href="/work/six12creative/">Team Lead, Software Development</Link>
+                    <Link href="/work/six12creative/">Manager, Software Engineering</Link>
                   </div>
                   <div className="place">SIX12</div>
                   <div className="location">New Westminster, BC</div>
@@ -71,11 +70,20 @@ export default function Resume() {
                 <div className="line">
                   <ul className="list">
                     <li className="description">
-                      Shaped a culture of autonomy within my team, by continuously defining behaviour norms.
+                      Hired and mentored 3 engineers to senior roles, by creating personalized career plans aimed at
+                      rapid internal progression through regular 1-on-1s and targeted assignments. Team size: 4.
                     </li>
                     <li className="description">
-                      Created robust career development plans aimed at fostering swift internal progression and
-                      maintaining high retention rates.
+                      Delivered a key project in less than six weeks that kick-started a long-term relationship, drove
+                      market competitiveness, and resulted in 240% revenue growth from $1M to $3.4M ARR.
+                    </li>
+                    <li className="description">
+                      Established and matured processes in hiring, QA, performance reviews, and operational readiness
+                      for safely launching new products and features.
+                    </li>
+                    <li className="description">
+                      Introduced an incident response plan as Information Security Lead, matured postmortem processes,
+                      and established cloud redundancy to ensure business continuity during outages.
                     </li>
                   </ul>
                 </div>
@@ -92,8 +100,11 @@ export default function Resume() {
                 <div className="line">
                   <ul className="list">
                     <li className="description">
-                      Championed new frameworks and tools, significantly widening our scope of services, technological
-                      capabilities, and processes, resulting in 240% 5-year revenue growth.
+                      Kept infrastructure cost under 1% of revenue, by carefully monitoring and designing lean services.
+                    </li>
+                    <li className="description">
+                      Increased project delivery speed by 98% and eliminated siloing, by migrating all products from
+                      PHP/JavaScript to a unified, cloud-native TypeScript stack on managed DigitalOcean services.
                     </li>
                   </ul>
                 </div>
@@ -110,8 +121,8 @@ export default function Resume() {
                 <div className="line">
                   <ul className="list">
                     <li className="description">
-                      Developed a secure, high-volume SMS shortcode service from scratch, now responsible for managing
-                      between 100k-1m inbound and outbound messages daily.
+                      Led the development of a high-volume SMS shortcode API crucial for customer engagement; managing
+                      100K-1M daily text messages, and achieved near 100% uptime over 8 years.
                     </li>
                   </ul>
                 </div>
@@ -160,7 +171,7 @@ export default function Resume() {
               </div>
             </div>
              */}
-              <div id="young-technology" className="job">
+              {/* <div id="young-technology" className="job">
                 <div className="row">
                   <div className="date">2008 – 2011</div>
                   <div className="position">Programming Camp Instructor</div>
@@ -175,7 +186,7 @@ export default function Resume() {
                     </li>
                   </ul>
                 </div>
-              </div>
+              </div> */}
             </div>
           </article>
 
@@ -183,8 +194,8 @@ export default function Resume() {
             <h2 className="heading">Education</h2>
             <div className="resume-grid">
               <div id="siat" className="row">
-                <div className="date">2013 – 2018</div>
-                <div className="position">B.Sc., Interactive Systems</div>
+                <div className="date">2018</div>
+                <div className="position">B.Sc. Interactive Systems</div>
                 <div className="place">Simon Fraser University</div>
                 <div className="location">Burnaby, BC</div>
               </div>
@@ -208,11 +219,8 @@ export default function Resume() {
                 <div className="line">
                   <ul className="list">
                     <li className="description">
-                      An industry-recognized distinction, awarded to experts who are passionate about sharing their
-                      knowledge of containers. Second recipient of this award in Canada.
-                    </li>
-                    <li className="description">
-                      Actively engaged in helping Docker's Product team shape both significant and minor changes.
+                      Awarded for community expertise in containerization and conference speaking; 2nd recipient in
+                      Canada. Actively helping Docker Product teams shape products prior to general availability.
                     </li>
                   </ul>
                 </div>
@@ -231,8 +239,7 @@ export default function Resume() {
                 <div className="line">
                   <ul className="list">
                     <li className="description">
-                      11+ year leadership of a multiplayer game with 1,000 daily active users. Maintain the open source
-                      game engine, and release updates which improve player experience.
+                      Leading an open sourced a long-term, multiplayer game project with 1K daily active players.
                     </li>
                   </ul>
                 </div>
@@ -241,25 +248,36 @@ export default function Resume() {
           </article>
 
           <article id="key-skills-profile" className="section">
-            <h2 className="heading">Skills</h2>
-            <h3 className="list-heading"> </h3>
-            <ul className="list">
-              <li className="description">
-                Proven track record of turning visions into detailed plans, and adept at executing within constraints.
-              </li>
-              <li className="description">
-                Fluent in translating between developer and business speak, written and verbal.
-              </li>
-              <li className="description">Skilled at writing concise documentation and estimates.</li>
-              <li className="description">
-                Proficient in ensuring the security and information security protocols of applications and
-                infrastructure.
-              </li>
-              <li className="description">
-                Capable, confident and personable demeanor, with strong interpersonal skills.{' '}
-              </li>
-              <li className="description">Eager to continuously learn and grow.</li>
-            </ul>
+            <div className="grid grid-cols-1 gap-8 md:grid-cols-2">
+              <div>
+                <h3 className="heading">Leadership Skills</h3>
+                <br />
+                <ul className="list">
+                  <li className="description">Talent retention, Performance coaching</li>
+                  <li className="description">Process building and optimization</li>
+                  <li className="description">Scaling Product-Design-Engineering triads</li>
+                  <li className="description">
+                    Turning technical visions into detailed plans using Agile and Waterfall methodologies
+                  </li>
+                  <li className="description">
+                    Capable, confident and personable demeanor, with strong interpersonal skills
+                  </li>
+                </ul>
+              </div>
+
+              <div>
+                <h3 className="heading">Engineering Skills</h3>
+                <br />
+                <ul className="list">
+                  <li className="description">TypeScript, JavaScript, React, Next.js, Node.js, PHP, Golang</li>
+                  <li className="description">Docker, Compose, Kubernetes</li>
+                  <li className="description">DevOps best practices, GitHub Actions</li>
+                  <li className="description">Postgres, MySQL, Redis</li>
+                  <li className="description">Code review, Tech debt management</li>
+                  <li className="description">Cloud & Web Application Security</li>
+                </ul>
+              </div>
+            </div>
           </article>
         </section>
 
