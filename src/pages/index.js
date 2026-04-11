@@ -60,14 +60,16 @@ export default function Home() {
             <figcaption>{`Hi, I'm Max!`}</figcaption>
           </figure>
           <p className="description">
-            I graduated from{' '}
-            <Link href="https://www.sfu.ca" target="_blank">
-              Simon Fraser University
-            </Link>{' '}
-            with a Bachelor of Science in Interactive Systems.
+            {`I've`} spent 10+ years building secure web apps for millions of users, and 5+ years leading
+            high-performing engineering teams. Player-coach at heart, passionate about driving dramatic growth within
+            myself and my team 1% every day.
           </p>
           <p className="description">
-            My hobbies are mainly centered around playing In The Groove and creating personal Google Sheets.
+            My hobbies are mainly centered around playing{' '}
+            <Link href="https://www.youtube.com/watch?v=aZuBCUQjUj8" target="_blank">
+              In The Groove
+            </Link>{' '}
+            and creating personal Google Sheets.
           </p>
           <p className="description">
             For more information, please <Link href="/resume">view my resume</Link>. {`I'm also active on`}{' '}
