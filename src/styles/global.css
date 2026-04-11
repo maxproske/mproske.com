@@ -1,7 +1,5 @@
 @import 'tailwindcss';
 
-@config '../../tailwind.config.js';
-
 /* Document
    ========================================================================== */
 
@@ -675,62 +673,6 @@ figure {
   background-repeat: no-repeat;
 }
 
-#projects-education #sfu {
-  grid-column: span 1;
-  grid-row: span 2;
-  background-color: #a6192e;
-  color: #fff;
-}
-
-#projects-education #sfu .background-image {
-  background: url("/img/sfu.jpg");
-  background-size: cover;
-  background-position: center center;
-  background-repeat: no-repeat;
-}
-
-#projects-education #ivizlab {
-  grid-column: span 1;
-  grid-row: span 2;
-  background-color: #ef6424;
-  color: #fff;
-}
-
-#projects-education #ivizlab .background-image {
-  background: url("/img/ivizlab/gallery.png");
-  background-size: cover;
-  background-position: center center;
-  background-repeat: no-repeat;
-}
-
-#projects-education #lra {
-  grid-column: span 1;
-  grid-row: span 2;
-  background-color: #439aa0;
-  color: #fff;
-}
-
-#projects-education #lra .background-image {
-  background: url("/img/lra/demo.png");
-  background-size: cover;
-  background-position: center center;
-  background-repeat: no-repeat;
-}
-
-#projects-education #flashflashrevolution {
-  grid-column: span 1;
-  grid-row: span 3;
-  background: #2d0050; /* #28aad1; */
-  color: #fff;
-}
-
-#projects-education #flashflashrevolution .background-image {
-  background: url("/img/ffr.png");
-  background-size: cover;
-  background-position: center top;
-  background-repeat: no-repeat;
-}
-
 .project .side-by-side figure {
   width: 47%;
   display: inline-block;
@@ -1058,9 +1000,6 @@ figure {
   .index-grid .title,
   .index-grid .description {
     opacity: 1;
-  }
-  #projects-education #flashflashrevolution {
-    grid-row: span 2;
   }
 }
 

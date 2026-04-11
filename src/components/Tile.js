@@ -12,8 +12,6 @@ export const Tile = ({ promotionName, imgSrc, technologies }) => {
 
       <article className="mb-4 mt-2 text-center">
         <h3 className="text-3xl font-black">{promotionName}</h3>
-        {/* Big sexy hook */}
-        {/* <p>Placeholder</p> */}
         {technologies && <p className="text-lg">{technologies.join(' • ')}</p>}
       </article>
     </section>
