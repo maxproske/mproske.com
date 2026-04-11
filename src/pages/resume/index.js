@@ -242,9 +242,7 @@ export default function Resume() {
                 </div>
                 <div className="line">
                   <ul className="list">
-                    <li className="description">
-                      Longest running online rhythm game (2M users since 2002).
-                    </li>
+                    <li className="description">Longest running online rhythm game (2M users since 2002).</li>
                   </ul>
                 </div>
               </div>
