@@ -202,7 +202,6 @@ export default function SIX12() {
     '/img/six12/RPP5-jeuxcouchetard-open.png',
     '/img/six12/RPP5B-circlekgames-open.png',
     '/img/six12/RPP5B-jeuxcouchetard-open.png',
-    '/img/six12/rpp6b.jpg',
   ]
 
   return (
@@ -240,7 +239,7 @@ export default function SIX12() {
             </p>
 
             <h2 className="m-0 mt-16 pb-4 pt-8 text-5xl font-black" id="projects">
-              Projects
+              Projects ({tiles.length})
             </h2>
 
             <div className="grid grid-cols-5 gap-4 text-center">
