@@ -1,4 +1,4 @@
-@import 'tailwindcss';
+@import "tailwindcss";
 
 /* Document
    ========================================================================== */
@@ -1012,4 +1012,95 @@ figure {
 .blur.lazyloaded {
   -webkit-filter: blur(0);
   filter: blur(0);
+}
+
+/* Blog
+   ========================================================================== */
+
+#blog {
+  margin-top: 8rem;
+}
+
+.blog-list {
+  list-style: none;
+  padding: 0;
+  margin: 2rem 0 0 0;
+}
+
+.blog-list > li {
+  margin-bottom: 3rem;
+}
+
+.blog-list .title {
+  margin: 0 0 0.25rem 0;
+}
+
+.blog-post-meta {
+  font-size: 1rem;
+  color: #666;
+  margin: 0 0 0.75rem 0;
+}
+
+.blog-body {
+  font-size: 1.25rem;
+  line-height: 1.8rem;
+  margin-top: 2rem;
+}
+
+.blog-body p {
+  font-size: 1.25rem;
+  line-height: 1.8rem;
+  margin-bottom: 1rem;
+}
+
+.blog-body h2 {
+  font-size: 2.5rem;
+  font-weight: 900;
+  margin: 3rem 0 1rem 0;
+}
+
+.blog-body h3 {
+  font-size: 1.75rem;
+  font-weight: 900;
+  margin: 2rem 0 1rem 0;
+}
+
+.blog-body ul,
+.blog-body ol {
+  font-size: 1.25rem;
+  line-height: 1.8rem;
+  padding-left: 2rem;
+  margin: 0 0 1rem 0;
+}
+
+.blog-body code {
+  font-size: 1rem;
+  background-color: #f7f7f7;
+  padding: 0 0.5rem;
+  border: 1px solid #ddd;
+  border-radius: 0.2rem;
+}
+
+.blog-body pre {
+  font-size: 0.9rem;
+  padding: 1rem;
+  border: 1px solid #ddd;
+  border-radius: 0.25rem;
+  overflow: auto;
+  margin: 1.5rem 0;
+}
+
+.blog-body pre code {
+  font-size: inherit;
+  background: none;
+  border: none;
+  padding: 0;
+  border-radius: 0;
+}
+
+.blog-body blockquote {
+  margin: 1.5rem 0;
+  padding-left: 1rem;
+  border-left: 4px solid #ddd;
+  color: #444;
 }
