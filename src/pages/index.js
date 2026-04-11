@@ -72,15 +72,7 @@ export default function Home() {
             and creating personal Google Sheets.
           </p>
           <p className="description">
-            For more information, please <Link href="/resume">view my resume</Link>. {`I'm also active on`}{' '}
-            <Link href="https://github.com/maxproske" target="_blank">
-              GitHub
-            </Link>{' '}
-            and{' '}
-            <Link href="https://www.linkedin.com/in/maxproske" target="_blank">
-              LinkedIn
-            </Link>
-            .
+            For more information, please <Link href="/resume">view my resume</Link>.
           </p>
         </section>
 
@@ -90,6 +82,17 @@ export default function Home() {
             <Link href="mailto:max@mproske.com">max@mproske.com</Link>
           </p>
           <p className="description">{`I'd love to chat about job opportunities or projects I’ve worked on.`}</p>
+          <p className="description">
+            {`I'm also active on`}{' '}
+            <Link href="https://github.com/maxproske" target="_blank">
+              GitHub
+            </Link>{' '}
+            and{' '}
+            <Link href="https://www.linkedin.com/in/maxproske" target="_blank">
+              LinkedIn
+            </Link>
+            .
+          </p>
         </section>
 
         {/* <section id="projects-education">
