@@ -52,6 +52,7 @@ function formatDate(iso) {
     year: 'numeric',
     month: 'long',
     day: 'numeric',
+    timeZone: 'UTC',
   })
 }
 
